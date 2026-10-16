@@ -1,0 +1,148 @@
+{
+  "audit_status": "transport_interpretation_supported_with_explicit_continuity_caveat",
+  "scope_match_for_analysis": true,
+  "meaning_of_true": "Supports interpreting the official annual indicator as transport-aviation fuel intensity using explicit official same-year/value anchors and indicator continuity; does not certify yearly operator-level matching.",
+  "direct_anchor_year": 2019,
+  "other_years": "Supported interpretation by continuity of the same named official indicator and common baseline; not separately redefined in each annual bulletin.",
+  "fuel_output_label": "Derived/implied fuel-use estimate reconstructed from official Q and I; not an independently observed official national fuel total.",
+  "residual_uncertainty": [
+    "Latest annual bulletins do not individually repeat an operator-level intensity denominator and summation rule.",
+    "The statistical system also defines general-aviation and combined-converted-tonne-km measures, which must remain distinct.",
+    "Published I has three decimal places and Q two; rounding uncertainty must be propagated/reported.",
+    "NBS values are a CAAC-derived cross-publication check, not independent sampling evidence."
+  ],
+  "evidence": [
+    {
+      "requested_url": "https://www.caac.gov.cn/XWZX/MHYW/202012/t20201222_205702.html",
+      "final_url": "https://www.caac.gov.cn/XWZX/MHYW/202012/t20201222_205702.html",
+      "source_file": "/workspace/research/scope_audit/raw/53d7e6bd0a7262a76c6618c045b0a998f367efabcdcbd02228599b640e86225b.html",
+      "text_file": "/workspace/research/scope_audit/text/53d7e6bd0a7262a76c6618c045b0a998f367efabcdcbd02228599b640e86225b.txt",
+      "sha256": "53d7e6bd0a7262a76c6618c045b0a998f367efabcdcbd02228599b640e86225b",
+      "retrieved_utc": "2026-10-16T04:37:05.167070+00:00",
+      "locator": "正文绿色发展段，段首《中国交通的可持续发展》白皮书中对绿色发展用了专门章节进行描述",
+      "quote": "2019年，我国运输航空每吨公里油耗和碳排放分别为0.285千克和0.898千克，均较基线（2005年水平）下降16.2%",
+      "evidence_type": "direct_same_year_same_value_transport_mapping",
+      "notes": "2019 CAAC statistical bulletin reports I=0.285 kg/tkm; this separate official news article identifies the same value and year explicitly as transport aviation."
+    },
+    {
+      "requested_url": "https://www.caac.gov.cn/XWZX/MHYW/202209/t20220923_215418.html",
+      "final_url": "https://www.caac.gov.cn/XWZX/MHYW/202209/t20220923_215418.html",
+      "source_file": "/workspace/research/scope_audit/raw/ee77816a117061e5411a40455e870e55c5a524a917649cac053ed0ffce36d21a.html",
+      "text_file": "/workspace/research/scope_audit/text/ee77816a117061e5411a40455e870e55c5a524a917649cac053ed0ffce36d21a.txt",
+      "sha256": "ee77816a117061e5411a40455e870e55c5a524a917649cac053ed0ffce36d21a",
+      "retrieved_utc": "2026-10-16T04:37:05.915678+00:00",
+      "locator": "正文第4段（以根据《行动计划》发布的数据开头）",
+      "quote": "根据《行动计划》发布的数据，2019年，中国运输机队燃效为每吨公里油耗0.285公斤",
+      "evidence_type": "direct_same_year_same_value_transport_mapping",
+      "notes": "The same paragraph continues with 2021 total transport turnover and I=0.309; supports continuity of the indicator, not a year-by-year operator audit."
+    },
+    {
+      "requested_url": "https://www.caac.gov.cn/XWZX/MHYW/202209/t20220923_215418.html",
+      "final_url": "https://www.caac.gov.cn/XWZX/MHYW/202209/t20220923_215418.html",
+      "source_file": "/workspace/research/scope_audit/raw/ee77816a117061e5411a40455e870e55c5a524a917649cac053ed0ffce36d21a.html",
+      "text_file": "/workspace/research/scope_audit/text/ee77816a117061e5411a40455e870e55c5a524a917649cac053ed0ffce36d21a.txt",
+      "sha256": "ee77816a117061e5411a40455e870e55c5a524a917649cac053ed0ffce36d21a",
+      "retrieved_utc": "2026-10-16T04:37:05.915678+00:00",
+      "locator": "上述同段后半段",
+      "quote": "2021年中国民航吨公里油耗0.309公斤，较2000年累计减少二氧化碳排放4亿吨",
+      "evidence_type": "indicator_continuity_anchor",
+      "notes": ""
+    },
+    {
+      "requested_url": "https://www.caac.gov.cn/XWZX/MHYW/202201/t20220127_211344.html",
+      "final_url": "https://www.caac.gov.cn/XWZX/MHYW/202201/t20220127_211344.html",
+      "source_file": "/workspace/research/scope_audit/raw/08a4ec53481f6acadf915a5f006d162ab80419f030e3df552be9717900bb9c04.html",
+      "text_file": "/workspace/research/scope_audit/text/08a4ec53481f6acadf915a5f006d162ab80419f030e3df552be9717900bb9c04.txt",
+      "sha256": "08a4ec53481f6acadf915a5f006d162ab80419f030e3df552be9717900bb9c04",
+      "retrieved_utc": "2026-10-16T04:37:06.801612+00:00",
+      "locator": "正文末段，以《规划》还回顾了开头",
+      "quote": "运输航空单位吨公里油耗和二氧化碳排放稳中有降",
+      "evidence_type": "transport_aviation_semantic_continuity",
+      "notes": ""
+    },
+    {
+      "requested_url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202406/P020240604342006406114.pdf",
+      "final_url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202406/P020240604342006406114.pdf",
+      "source_file": "/workspace/research/scope_audit/raw/6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a.pdf",
+      "text_file": "/workspace/research/scope_audit/text/6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a.txt",
+      "sha256": "6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a",
+      "retrieved_utc": "2026-10-16T04:34:38.756065+00:00",
+      "locator": "印刷p.9，物理PDF p.13，航综统1表说明2–4",
+      "quote": "要求在我国境内登记注册的各个从事民用航空定期或不定期运输业务的企业按月向民航局综合统计机构报送",
+      "evidence_type": "transport_operator_scope",
+      "notes": "Domestic routes include Hong Kong/Macao/Taiwan routes as a subset; international routes are separately reported. Actual operating carrier reports transport including substituted/charter flights."
+    },
+    {
+      "requested_url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202406/P020240604342006406114.pdf",
+      "final_url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202406/P020240604342006406114.pdf",
+      "source_file": "/workspace/research/scope_audit/raw/6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a.pdf",
+      "text_file": "/workspace/research/scope_audit/text/6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a.txt",
+      "sha256": "6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a",
+      "retrieved_utc": "2026-10-16T04:34:38.756065+00:00",
+      "locator": "印刷p.69–70，物理PDF p.73–74，第14及17项",
+      "quote": "运输总周转量（吨公里）＝旅客周转量（吨公里）＋货物周转量（吨公里）＋邮件周转量（吨公里）",
+      "evidence_type": "turnover_denominator_definition",
+      "notes": "Passenger tonne-km uses adult weight 90 kg including baggage; children and infants use half and one-tenth of adult weight. Do not reconstruct total tonne-km as 0.09 times all passenger-km plus freight without age composition."
+    },
+    {
+      "requested_url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202406/P020240604342006406114.pdf",
+      "final_url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202406/P020240604342006406114.pdf",
+      "source_file": "/workspace/research/scope_audit/raw/6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a.pdf",
+      "text_file": "/workspace/research/scope_audit/text/6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a.txt",
+      "sha256": "6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a",
+      "retrieved_utc": "2026-10-16T04:34:38.756065+00:00",
+      "locator": "印刷p.80–81，物理PDF p.84–85，第126项",
+      "quote": "吨公里耗油：指平均每一运输吨公里的实际耗油量，以公斤为计算单位",
+      "evidence_type": "transport_fuel_intensity_formula",
+      "notes": "Transport formula: transport-flight actual fuel in tonnes / transport tonne-km × 1000. The same item separately defines general-aviation converted-tonne-km and combined average-converted-tonne-km fuel intensity. Those alternatives cannot be silently conflated."
+    },
+    {
+      "requested_url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202406/P020240604342006406114.pdf",
+      "final_url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202406/P020240604342006406114.pdf",
+      "source_file": "/workspace/research/scope_audit/raw/6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a.pdf",
+      "text_file": "/workspace/research/scope_audit/text/6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a.txt",
+      "sha256": "6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a",
+      "retrieved_utc": "2026-10-16T04:34:38.756065+00:00",
+      "locator": "印刷p.80，物理PDF p.84，第124项",
+      "quote": "实际耗油：指报告期运输、通用航空生产飞行过程中，航空燃油的实际消耗量",
+      "evidence_type": "actual_fuel_measurement",
+      "notes": "Actual fuel = retained fuel after previous flight + newly fuelled amount − retained fuel after current flight. This measurement definition is not evidence that an independent national fuel total has been obtained."
+    },
+    {
+      "requested_url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202406/P020240604342006406114.pdf",
+      "final_url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202406/P020240604342006406114.pdf",
+      "source_file": "/workspace/research/scope_audit/raw/6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a.pdf",
+      "text_file": "/workspace/research/scope_audit/text/6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a.txt",
+      "sha256": "6ecbf10b5da9ec8730baa54438fa4e3497e8d99e8ce50ad1ae5c34afdbc9e48a",
+      "retrieved_utc": "2026-10-16T04:34:38.756065+00:00",
+      "locator": "印刷p.22，物理PDF p.26，航综统11表说明1及3",
+      "quote": "要求在机场执行运输飞行任务的各航空公司（包括外国航空公司），向机场提供每个进出港航班载重平衡表",
+      "evidence_type": "airport_scope_is_different",
+      "notes": "Airport throughput aggregates arrivals and departures, includes foreign carriers and contains no distance multiplier. It must not replace operator transport tonne-km."
+    },
+    {
+      "requested_url": "https://www.stats.gov.cn/sj/ndsj/2025/html/sm16.htm",
+      "final_url": "https://www.stats.gov.cn/sj/ndsj/2025/html/sm16.htm",
+      "source_file": "/workspace/research/scope_audit/raw/6ac4776ea9eda49faef72965806f5c811dd8c8df1732953012a867f41a823045.html",
+      "text_file": "/workspace/research/scope_audit/text/6ac4776ea9eda49faef72965806f5c811dd8c8df1732953012a867f41a823045.txt",
+      "sha256": "6ac4776ea9eda49faef72965806f5c811dd8c8df1732953012a867f41a823045",
+      "retrieved_utc": "2026-10-16T04:33:15.608909+00:00",
+      "locator": "二、本篇资料的统计范围，第4项",
+      "quote": "统计对象为在我国境内注册从事民用航空运输飞行和通用飞行的航空运输企业和定期航班通航机场，不包括在我国境内运输飞行的外国航空公司",
+      "evidence_type": "nbs_operator_scope",
+      "notes": "The following sentence explicitly includes domestic, Hong Kong/Macao/Taiwan and international transport; NBS chapter data are compiled from CAAC among other transport authorities, so this is an official cross-publication check rather than independent raw measurement."
+    },
+    {
+      "requested_url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202505/P020250515367555717699.pdf",
+      "final_url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202505/P020250515367555717699.pdf",
+      "source_file": "/workspace/research/scope_audit/raw/5c4c40d1cbc5ccf23bfd03d8a54fc2bdf8c583850e9dba981cb17aaa9d5d21d9.pdf",
+      "text_file": "/workspace/research/scope_audit/text/5c4c40d1cbc5ccf23bfd03d8a54fc2bdf8c583850e9dba981cb17aaa9d5d21d9.txt",
+      "sha256": "5c4c40d1cbc5ccf23bfd03d8a54fc2bdf8c583850e9dba981cb17aaa9d5d21d9",
+      "retrieved_utc": "2026-10-16T04:34:10.816080+00:00",
+      "locator": "印刷p.20，物理PDF p.22，注释[2]及[3]",
+      "quote": "运输周转量、旅客运输量、货邮运输量、飞行小时和起飞架次涉及的数据均为境内航空公司承运的数据",
+      "evidence_type": "annual_bulletin_operator_scope",
+      "notes": "Formal annual reports supersede preliminary statistics where they differ. Do not average official versions."
+    }
+  ]
+}

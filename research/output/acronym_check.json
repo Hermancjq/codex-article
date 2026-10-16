@@ -1,0 +1,131 @@
+{
+  "checker": "ars-acronym-check/1.0",
+  "input": "MANUSCRIPT.md",
+  "input_sha256": "e73084e5de345a8d87c64202ee42db7c8ffa0f0456fe9cf3c144b06ed4ccc8cd",
+  "status": "partial",
+  "allowlist": {
+    "default": 29,
+    "user": [
+      "COVID",
+      "OpenAI",
+      "SHA"
+    ]
+  },
+  "coverage": {
+    "body": "checked",
+    "abstract_en": "checked",
+    "abstract_zh": "not_in_input"
+  },
+  "scope_lines": {
+    "body": [
+      [
+        2,
+        2
+      ],
+      [
+        10,
+        22
+      ],
+      [
+        24,
+        24
+      ],
+      [
+        26,
+        47
+      ],
+      [
+        49,
+        61
+      ],
+      [
+        63,
+        79
+      ],
+      [
+        81,
+        97
+      ],
+      [
+        99,
+        101
+      ],
+      [
+        103,
+        105
+      ],
+      [
+        107,
+        107
+      ],
+      [
+        109,
+        117
+      ],
+      [
+        119,
+        140
+      ],
+      [
+        142,
+        150
+      ],
+      [
+        152,
+        158
+      ],
+      [
+        160,
+        160
+      ],
+      [
+        162,
+        168
+      ],
+      [
+        170,
+        176
+      ],
+      [
+        178,
+        182
+      ],
+      [
+        184,
+        190
+      ],
+      [
+        192,
+        194
+      ],
+      [
+        196,
+        198
+      ],
+      [
+        200,
+        202
+      ],
+      [
+        204,
+        206
+      ]
+    ],
+    "abstract_en": [
+      [
+        4,
+        8
+      ]
+    ]
+  },
+  "unread_sections": [],
+  "coverage_limits": [
+    {
+      "scope": "body",
+      "line": 54,
+      "acronym": "LMDI",
+      "reason": "unconfirmed_definition"
+    }
+  ],
+  "findings": []
+}

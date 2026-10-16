@@ -1,0 +1,68 @@
+{
+  "reports": [
+    {
+      "stem": "01_Author_Notes",
+      "title": "作者说明与投稿前事项"
+    },
+    {
+      "stem": "02_Final_Verification",
+      "title": "最终核验与审查问题处置"
+    },
+    {
+      "stem": "03_Original_Manuscript_Audit",
+      "title": "原稿证据审计"
+    },
+    {
+      "stem": "04_Statistical_Scope",
+      "title": "统计口径核验"
+    },
+    {
+      "stem": "05_Internal_Method_Review",
+      "title": "内部方法核对（修订前快照）"
+    },
+    {
+      "stem": "06_Internal_Source_Review",
+      "title": "内部来源核对（修订前快照）"
+    },
+    {
+      "stem": "07_Internal_Citation_Policy_Review",
+      "title": "引用与期刊政策核对（修订前快照）"
+    },
+    {
+      "stem": "08_Journal_Policy",
+      "title": "Sustainability官方政策核验"
+    },
+    {
+      "stem": "09_Verified_References",
+      "title": "已核验参考文献目录"
+    },
+    {
+      "stem": "10_Claim_Evidence_Map",
+      "title": "论断与文献证据映射"
+    },
+    {
+      "stem": "11_Method_Sources",
+      "title": "方法与软件文献核验"
+    },
+    {
+      "stem": "12_Sobol_Documentation",
+      "title": "Sobol官方文档核验"
+    },
+    {
+      "stem": "13_Data_Status",
+      "title": "官方数据获取与口径记录"
+    },
+    {
+      "stem": "14_Replication_Instructions",
+      "title": "离线复现说明"
+    },
+    {
+      "stem": "15_Figure_QA",
+      "title": "图表质量检查记录"
+    },
+    {
+      "stem": "16_Current_Status",
+      "title": "当前研究状态"
+    }
+  ]
+}

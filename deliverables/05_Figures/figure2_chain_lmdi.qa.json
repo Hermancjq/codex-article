@@ -1,0 +1,36 @@
+{
+  "figure": 2,
+  "source_validation_file": "source_validation.json",
+  "source_validation_failures": 0,
+  "source_warning_resolutions": {
+    "EXPORT-RASTER": "PDF/SVG are the vector masters; the requested raster deliverable is a PNG preview, not TIFF.",
+    "RASTER-DPI": "PNG is deliberately 300 dpi as requested; vector masters retain scalable line art.",
+    "FINAL-WIDTH": "The dynamic WIDTH constant is 183 / 25.4 inches; final PDF width is 518.74015748 pt (183 mm)."
+  },
+  "glyph_audit": {
+    "pdf": "/workspace/research/output/figures/figure2_chain_lmdi.pdf",
+    "auditable": true,
+    "minimum_required_pt": 5.0,
+    "minimum_found_pt": 7.0,
+    "text_run_count": 3,
+    "below_minimum_count": 0,
+    "below_minimum": [],
+    "warnings": []
+  },
+  "collision_audit_file": "figure2_chain_lmdi.collision-audit.json",
+  "collision_verdict": "PASS",
+  "preview": {
+    "pixel_dimensions": [
+      2161,
+      975
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ]
+  },
+  "source_data_sha256": {
+    "figure2_source_data.csv": "183b9947bbc0be6d2a1867c5e0f3b555cacb9ea824984ee9cadc20275e80ba4c"
+  },
+  "alignment": "Not applicable: one quantitative panel"
+}

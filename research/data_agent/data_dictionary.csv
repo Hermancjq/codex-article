@@ -1,0 +1,17 @@
+field,unit,type,definition,validation_or_caveat
+year,calendar year,observed,Statistical reference year not publication year,2010 through latest confirmed annual release
+turnover_100m_tkm,100 million tonne-km,observed,CAAC total transport turnover for commercial air transport,Must preserve the official definition and domestic/international boundary
+fuel_intensity_kg_per_tkm,kg fuel per tonne-km,observed,Reported transport aviation fuel intensity,Must use the same turnover denominator and carrier boundary as the turnover field
+reported_fuel_10000_tonnes,10000 metric tonnes,observed,Officially reported fuel total if a matching scope exists,Do not substitute calculated fuel for official observation
+calculated_fuel_10000_tonnes,10000 metric tonnes,derived,turnover_100m_tkm multiplied by fuel_intensity_kg_per_tkm multiplied by 10,Requires matching scope; source precision propagates
+emission_factor_kg_co2_per_kg_fuel,kg CO2 per kg fuel,parameter,Combustion factor from a verified authoritative source,Do not label as observation; document fuel composition and factor version
+calculated_ttW_co2_10000_tonnes,10000 metric tonnes CO2,derived,Calculated fuel multiplied by combustion factor,Excludes non-CO2 climate effects and upstream fuel emissions
+publication_date,ISO date,metadata,Date of official release,May differ from statistical year
+source_url,URL,metadata,Original official page or attachment,Official source must be accessed successfully before verification
+source_file,path,metadata,Local archived original file,Retain raw file unmodified
+source_sha256,hex digest,metadata,SHA-256 of original downloaded bytes,Confirms local source identity not external factual accuracy
+retrieval_utc,ISO UTC datetime,metadata,Time original source was retrieved,Use actual successful retrieval timestamp
+page_or_table,text,metadata,Precise page table or section supporting fields,Required for PDF or document sources
+exact_quote,text,metadata,Original excerpt with numbers and units,Keep original Chinese wording
+scope_notes,text,metadata,Definitions revisions exclusions and any mismatch,Do not infer engine technology causally
+verification_status,enum,metadata,pending or verified or scope_mismatch or missing,Only verified rows may feed principal analysis

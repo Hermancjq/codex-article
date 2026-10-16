@@ -1,0 +1,47 @@
+{
+  "abstract_words": 185,
+  "reference_entries": 20,
+  "quantitative_claim_bindings": {
+    "activity_change_percent": {
+      "computed": 51.49665767994978,
+      "manuscript_text": "51.5%",
+      "status": "matches"
+    },
+    "intensity_reduction_percent": {
+      "computed": 11.262798634812277,
+      "manuscript_text": "11.3%",
+      "status": "matches"
+    },
+    "fuel_change_percent": {
+      "computed": 34.433894186986166,
+      "manuscript_text": "34.4%",
+      "status": "matches"
+    },
+    "chain_offset_percent": {
+      "computed": 27.858368936790384,
+      "manuscript_text": "27.9%",
+      "status": "matches"
+    },
+    "chain_activity_Mt": {
+      "computed": 15.147059802994487,
+      "manuscript_text": "15.15",
+      "status": "matches"
+    },
+    "chain_intensity_Mt": {
+      "computed": 4.219723802994479,
+      "manuscript_text": "4.22",
+      "status": "matches"
+    },
+    "net_change_Mt": {
+      "computed": 10.92733600000001,
+      "manuscript_text": "10.93",
+      "status": "matches"
+    }
+  },
+  "source_pdf_hashes_checked": 11,
+  "all_annual_units_checked": 11,
+  "chain_closure_periods_checked": 7,
+  "figure_collision_reports": "3_PASS",
+  "original_attachment_hash_unchanged": true,
+  "scope": "Selected deterministic consistency checks plus recorded source/manual reviews; not exhaustive proof or external peer review"
+}

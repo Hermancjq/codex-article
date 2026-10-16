@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "word_documents": 23,
+  "excel_workbooks": 1,
+  "pdf_files": 9,
+  "main_pdf_pages": 14,
+  "supplement_pdf_pages": 4,
+  "compendium_pdf_pages": 56,
+  "original_manuscript_and_supplement_word_hashes": "unchanged",
+  "research_inputs_or_results_modified": false,
+  "excel_validation": "04_Data_and_Code/excel_validation.json",
+  "export_scope": "Final study outputs, reports, archived protocols, figures, workbook and existing replication package; official source links and hashes are supplied in the workbook/replication package."
+}

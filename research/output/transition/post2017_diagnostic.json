@@ -1,0 +1,694 @@
+{
+  "empirical_forecast_analysis": {
+    "observations": 9,
+    "period": [
+      2017,
+      2025
+    ],
+    "provenance_notice": "Official-source verification must be completed upstream; this module validates arithmetic inputs only.",
+    "main_rolling_h1": {
+      "analysis_type": "empirical_out_of_sample_forecast_evaluation",
+      "status": "skipped_insufficient_valid_differences",
+      "minimum_training_differences": 8,
+      "excluded_training_endpoint_years": [],
+      "prior": {
+        "mu": 0.0,
+        "kappa": 1.0,
+        "alpha": 2.0,
+        "beta": 0.0025000000000000005
+      },
+      "n_test_origins": 0,
+      "evaluation_purpose": "diagnostic_only",
+      "small_test_sample_warning": true,
+      "limitations": [
+        "Predictive performance is descriptive in a small annual sample.",
+        "Priors are transparent analyst choices, not empirically calibrated engine parameters.",
+        "The log-increment model assumes constant drift and iid Gaussian increments.",
+        "No engine-technology or policy causal effect is identified."
+      ],
+      "scores": {
+        "all": {
+          "B0": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B1": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B2": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": [],
+            "coverage_80": null,
+            "mean_width_80": null,
+            "coverage_95": null,
+            "mean_width_95": null
+          }
+        },
+        "pandemic_transition": {
+          "B0": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B1": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B2": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": [],
+            "coverage_80": null,
+            "mean_width_80": null,
+            "coverage_95": null,
+            "mean_width_95": null
+          }
+        },
+        "other_transition": {
+          "B0": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B1": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B2": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": [],
+            "coverage_80": null,
+            "mean_width_80": null,
+            "coverage_95": null,
+            "mean_width_95": null
+          }
+        }
+      },
+      "forecasts": [],
+      "skipped_origins": [
+        {
+          "origin_year": 2017,
+          "target_year": 2018,
+          "n_valid_differences": 0,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2018,
+          "target_year": 2019,
+          "n_valid_differences": 1,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2019,
+          "target_year": 2020,
+          "n_valid_differences": 2,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2020,
+          "target_year": 2021,
+          "n_valid_differences": 3,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2021,
+          "target_year": 2022,
+          "n_valid_differences": 4,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2022,
+          "target_year": 2023,
+          "n_valid_differences": 5,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2023,
+          "target_year": 2024,
+          "n_valid_differences": 6,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2024,
+          "target_year": 2025,
+          "n_valid_differences": 7,
+          "reason": "insufficient_prior_annual_differences"
+        }
+      ]
+    },
+    "pandemic_training_exclusion_rolling_h1": {
+      "analysis_type": "empirical_out_of_sample_forecast_evaluation",
+      "status": "skipped_insufficient_valid_differences",
+      "minimum_training_differences": 8,
+      "excluded_training_endpoint_years": [
+        2020,
+        2021,
+        2022
+      ],
+      "prior": {
+        "mu": 0.0,
+        "kappa": 1.0,
+        "alpha": 2.0,
+        "beta": 0.0025000000000000005
+      },
+      "n_test_origins": 0,
+      "evaluation_purpose": "diagnostic_only",
+      "small_test_sample_warning": true,
+      "limitations": [
+        "Predictive performance is descriptive in a small annual sample.",
+        "Priors are transparent analyst choices, not empirically calibrated engine parameters.",
+        "The log-increment model assumes constant drift and iid Gaussian increments.",
+        "No engine-technology or policy causal effect is identified."
+      ],
+      "scores": {
+        "all": {
+          "B0": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B1": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B2": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": [],
+            "coverage_80": null,
+            "mean_width_80": null,
+            "coverage_95": null,
+            "mean_width_95": null
+          }
+        },
+        "pandemic_transition": {
+          "B0": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B1": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B2": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": [],
+            "coverage_80": null,
+            "mean_width_80": null,
+            "coverage_95": null,
+            "mean_width_95": null
+          }
+        },
+        "other_transition": {
+          "B0": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B1": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B2": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": [],
+            "coverage_80": null,
+            "mean_width_80": null,
+            "coverage_95": null,
+            "mean_width_95": null
+          }
+        }
+      },
+      "forecasts": [],
+      "skipped_origins": [
+        {
+          "origin_year": 2017,
+          "target_year": 2018,
+          "n_valid_differences": 0,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2018,
+          "target_year": 2019,
+          "n_valid_differences": 1,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2019,
+          "target_year": 2020,
+          "n_valid_differences": 2,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2020,
+          "target_year": 2021,
+          "n_valid_differences": 2,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2021,
+          "target_year": 2022,
+          "n_valid_differences": 2,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2022,
+          "target_year": 2023,
+          "n_valid_differences": 2,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2023,
+          "target_year": 2024,
+          "n_valid_differences": 2,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2024,
+          "target_year": 2025,
+          "n_valid_differences": 3,
+          "reason": "insufficient_prior_annual_differences"
+        }
+      ]
+    },
+    "latest_h1": {
+      "analysis_type": "empirical_conditional_statistical_projection",
+      "n_valid_differences": 8,
+      "prior": {
+        "mu": 0.0,
+        "kappa": 1.0,
+        "alpha": 2.0,
+        "beta": 0.0025000000000000005
+      },
+      "excluded_training_endpoint_years": [],
+      "status": "completed",
+      "origin_year": 2025,
+      "posterior": {
+        "n": 8,
+        "mu": -0.013276775333504378,
+        "kappa": 9.0,
+        "alpha": 6.0,
+        "beta": 0.011999950379501146
+      },
+      "forecast": {
+        "point_summary": "median",
+        "median": 0.25657085279376673,
+        "log_location": -1.3603504233001136,
+        "log_scale": 0.0471403546151379,
+        "degrees_of_freedom": 12.0,
+        "horizon": 1,
+        "intervals": {
+          "80": {
+            "lower": 0.24068097217318343,
+            "upper": 0.2735097914427292
+          },
+          "95": {
+            "lower": 0.23152661771601238,
+            "upper": 0.2843241228706811
+          }
+        }
+      }
+    },
+    "latest_h1_pandemic_training_exclusion": {
+      "analysis_type": "empirical_conditional_statistical_projection",
+      "n_valid_differences": 4,
+      "prior": {
+        "mu": 0.0,
+        "kappa": 1.0,
+        "alpha": 2.0,
+        "beta": 0.0025000000000000005
+      },
+      "excluded_training_endpoint_years": [
+        2020,
+        2021,
+        2022
+      ],
+      "status": "skipped_insufficient_valid_differences"
+    },
+    "prior_scale_sensitivity": {
+      "0.02": {
+        "analysis_type": "empirical_out_of_sample_forecast_evaluation",
+        "status": "skipped_insufficient_valid_differences",
+        "minimum_training_differences": 8,
+        "excluded_training_endpoint_years": [],
+        "prior": {
+          "mu": 0.0,
+          "kappa": 1.0,
+          "alpha": 2.0,
+          "beta": 0.0004
+        },
+        "n_test_origins": 0,
+        "evaluation_purpose": "diagnostic_only",
+        "small_test_sample_warning": true,
+        "limitations": [
+          "Predictive performance is descriptive in a small annual sample.",
+          "Priors are transparent analyst choices, not empirically calibrated engine parameters.",
+          "The log-increment model assumes constant drift and iid Gaussian increments.",
+          "No engine-technology or policy causal effect is identified."
+        ],
+        "scores": {
+          "all": {
+            "B0": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B1": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B2": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": [],
+              "coverage_80": null,
+              "mean_width_80": null,
+              "coverage_95": null,
+              "mean_width_95": null
+            }
+          },
+          "pandemic_transition": {
+            "B0": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B1": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B2": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": [],
+              "coverage_80": null,
+              "mean_width_80": null,
+              "coverage_95": null,
+              "mean_width_95": null
+            }
+          },
+          "other_transition": {
+            "B0": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B1": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B2": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": [],
+              "coverage_80": null,
+              "mean_width_80": null,
+              "coverage_95": null,
+              "mean_width_95": null
+            }
+          }
+        },
+        "forecasts": [],
+        "skipped_origins": [
+          {
+            "origin_year": 2017,
+            "target_year": 2018,
+            "n_valid_differences": 0,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2018,
+            "target_year": 2019,
+            "n_valid_differences": 1,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2019,
+            "target_year": 2020,
+            "n_valid_differences": 2,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2020,
+            "target_year": 2021,
+            "n_valid_differences": 3,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2021,
+            "target_year": 2022,
+            "n_valid_differences": 4,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2022,
+            "target_year": 2023,
+            "n_valid_differences": 5,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2023,
+            "target_year": 2024,
+            "n_valid_differences": 6,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2024,
+            "target_year": 2025,
+            "n_valid_differences": 7,
+            "reason": "insufficient_prior_annual_differences"
+          }
+        ]
+      },
+      "0.1": {
+        "analysis_type": "empirical_out_of_sample_forecast_evaluation",
+        "status": "skipped_insufficient_valid_differences",
+        "minimum_training_differences": 8,
+        "excluded_training_endpoint_years": [],
+        "prior": {
+          "mu": 0.0,
+          "kappa": 1.0,
+          "alpha": 2.0,
+          "beta": 0.010000000000000002
+        },
+        "n_test_origins": 0,
+        "evaluation_purpose": "diagnostic_only",
+        "small_test_sample_warning": true,
+        "limitations": [
+          "Predictive performance is descriptive in a small annual sample.",
+          "Priors are transparent analyst choices, not empirically calibrated engine parameters.",
+          "The log-increment model assumes constant drift and iid Gaussian increments.",
+          "No engine-technology or policy causal effect is identified."
+        ],
+        "scores": {
+          "all": {
+            "B0": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B1": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B2": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": [],
+              "coverage_80": null,
+              "mean_width_80": null,
+              "coverage_95": null,
+              "mean_width_95": null
+            }
+          },
+          "pandemic_transition": {
+            "B0": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B1": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B2": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": [],
+              "coverage_80": null,
+              "mean_width_80": null,
+              "coverage_95": null,
+              "mean_width_95": null
+            }
+          },
+          "other_transition": {
+            "B0": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B1": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B2": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": [],
+              "coverage_80": null,
+              "mean_width_80": null,
+              "coverage_95": null,
+              "mean_width_95": null
+            }
+          }
+        },
+        "forecasts": [],
+        "skipped_origins": [
+          {
+            "origin_year": 2017,
+            "target_year": 2018,
+            "n_valid_differences": 0,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2018,
+            "target_year": 2019,
+            "n_valid_differences": 1,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2019,
+            "target_year": 2020,
+            "n_valid_differences": 2,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2020,
+            "target_year": 2021,
+            "n_valid_differences": 3,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2021,
+            "target_year": 2022,
+            "n_valid_differences": 4,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2022,
+            "target_year": 2023,
+            "n_valid_differences": 5,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2023,
+            "target_year": 2024,
+            "n_valid_differences": 6,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2024,
+            "target_year": 2025,
+            "n_valid_differences": 7,
+            "reason": "insufficient_prior_annual_differences"
+          }
+        ]
+      }
+    }
+  },
+  "conditional_deployment_scenarios": {
+    "analysis_type": "conditional_deployment_scenarios",
+    "status": "skipped_no_explicit_scenario_configuration"
+  }
+}

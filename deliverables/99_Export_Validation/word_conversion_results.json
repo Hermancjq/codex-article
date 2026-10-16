@@ -1,0 +1,122 @@
+[
+  {
+    "source": "03_Research_Reports/10_Claim_Evidence_Map.md",
+    "output": "03_Research_Reports/10_Claim_Evidence_Map.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/15_Figure_QA.md",
+    "output": "03_Research_Reports/15_Figure_QA.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/06_Internal_Source_Review.md",
+    "output": "03_Research_Reports/06_Internal_Source_Review.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/01_Author_Notes.md",
+    "output": "03_Research_Reports/01_Author_Notes.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/08_Journal_Policy.md",
+    "output": "03_Research_Reports/08_Journal_Policy.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/16_Current_Status.md",
+    "output": "03_Research_Reports/16_Current_Status.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/04_Statistical_Scope.md",
+    "output": "03_Research_Reports/04_Statistical_Scope.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/02_Final_Verification.md",
+    "output": "03_Research_Reports/02_Final_Verification.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/09_Verified_References.md",
+    "output": "03_Research_Reports/09_Verified_References.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/11_Method_Sources.md",
+    "output": "03_Research_Reports/11_Method_Sources.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/COMPLETE_RESEARCH_COMPENDIUM.md",
+    "output": "03_Research_Reports/COMPLETE_RESEARCH_COMPENDIUM.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/13_Data_Status.md",
+    "output": "03_Research_Reports/13_Data_Status.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/12_Sobol_Documentation.md",
+    "output": "03_Research_Reports/12_Sobol_Documentation.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/14_Replication_Instructions.md",
+    "output": "03_Research_Reports/14_Replication_Instructions.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/07_Internal_Citation_Policy_Review.md",
+    "output": "03_Research_Reports/07_Internal_Citation_Policy_Review.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/05_Internal_Method_Review.md",
+    "output": "03_Research_Reports/05_Internal_Method_Review.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "03_Research_Reports/03_Original_Manuscript_Audit.md",
+    "output": "03_Research_Reports/03_Original_Manuscript_Audit.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "06_Historical_Protocols/Archived_Method_Design.md",
+    "output": "06_Historical_Protocols/Archived_Method_Design.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "06_Historical_Protocols/Archived_English_Protocol.md",
+    "output": "06_Historical_Protocols/Archived_English_Protocol.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  },
+  {
+    "source": "05_Figures/FIGURE_COLLECTION.md",
+    "output": "05_Figures/FIGURE_COLLECTION.docx",
+    "exit_code": 0,
+    "diagnostic": ""
+  }
+]

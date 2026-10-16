@@ -1,0 +1,1292 @@
+{
+  "empirical_forecast_analysis": {
+    "observations": 11,
+    "period": [
+      2015,
+      2025
+    ],
+    "provenance_notice": "Official-source verification must be completed upstream; this module validates arithmetic inputs only.",
+    "main_rolling_h1": {
+      "analysis_type": "empirical_out_of_sample_forecast_evaluation",
+      "status": "completed",
+      "minimum_training_differences": 8,
+      "excluded_training_endpoint_years": [],
+      "prior": {
+        "mu": 0.0,
+        "kappa": 1.0,
+        "alpha": 2.0,
+        "beta": 0.0025000000000000005
+      },
+      "n_test_origins": 2,
+      "evaluation_purpose": "diagnostic_only",
+      "small_test_sample_warning": true,
+      "limitations": [
+        "Predictive performance is descriptive in a small annual sample.",
+        "Priors are transparent analyst choices, not empirically calibrated engine parameters.",
+        "The log-increment model assumes constant drift and iid Gaussian increments.",
+        "No engine-technology or policy causal effect is identified."
+      ],
+      "scores": {
+        "all": {
+          "B0": {
+            "n_test": 2,
+            "MAE": 0.015999999999999986,
+            "MASE": 1.8948529411764674,
+            "n_MASE": 2,
+            "test_years": [
+              2024,
+              2025
+            ]
+          },
+          "B1": {
+            "n_test": 2,
+            "MAE": 0.014654573141254013,
+            "MASE": 1.7500154362640488,
+            "n_MASE": 2,
+            "test_years": [
+              2024,
+              2025
+            ]
+          },
+          "B2": {
+            "n_test": 2,
+            "MAE": 0.014789997464233345,
+            "MASE": 1.7646188867540835,
+            "n_MASE": 2,
+            "test_years": [
+              2024,
+              2025
+            ],
+            "coverage_80": 0.5,
+            "mean_width_80": 0.032395648881489714,
+            "coverage_95": 1.0,
+            "mean_width_95": 0.05198620945370827
+          }
+        },
+        "pandemic_transition": {
+          "B0": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B1": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B2": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": [],
+            "coverage_80": null,
+            "mean_width_80": null,
+            "coverage_95": null,
+            "mean_width_95": null
+          }
+        },
+        "other_transition": {
+          "B0": {
+            "n_test": 2,
+            "MAE": 0.015999999999999986,
+            "MASE": 1.8948529411764674,
+            "n_MASE": 2,
+            "test_years": [
+              2024,
+              2025
+            ]
+          },
+          "B1": {
+            "n_test": 2,
+            "MAE": 0.014654573141254013,
+            "MASE": 1.7500154362640488,
+            "n_MASE": 2,
+            "test_years": [
+              2024,
+              2025
+            ]
+          },
+          "B2": {
+            "n_test": 2,
+            "MAE": 0.014789997464233345,
+            "MASE": 1.7646188867540835,
+            "n_MASE": 2,
+            "test_years": [
+              2024,
+              2025
+            ],
+            "coverage_80": 0.5,
+            "mean_width_80": 0.032395648881489714,
+            "coverage_95": 1.0,
+            "mean_width_95": 0.05198620945370827
+          }
+        }
+      },
+      "forecasts": [
+        {
+          "model": "B0",
+          "origin_year": 2023,
+          "target_year": 2024,
+          "training_max_year": 2023,
+          "n_valid_differences": 8,
+          "horizon": 1,
+          "point_summary": "median_or_deterministic_point",
+          "prediction": 0.292,
+          "actual": 0.271,
+          "absolute_error": 0.020999999999999963,
+          "mase_denominator": 0.008000000000000007,
+          "scaled_absolute_error": 2.624999999999993,
+          "pandemic_transition": false
+        },
+        {
+          "model": "B1",
+          "origin_year": 2023,
+          "target_year": 2024,
+          "training_max_year": 2023,
+          "n_valid_differences": 8,
+          "horizon": 1,
+          "point_summary": "median_or_deterministic_point",
+          "prediction": 0.29175095853681005,
+          "actual": 0.271,
+          "absolute_error": 0.020750958536810027,
+          "mase_denominator": 0.008000000000000007,
+          "scaled_absolute_error": 2.593869817101251,
+          "pandemic_transition": false
+        },
+        {
+          "model": "B2",
+          "origin_year": 2023,
+          "target_year": 2024,
+          "training_max_year": 2023,
+          "n_valid_differences": 8,
+          "horizon": 1,
+          "point_summary": "median_or_deterministic_point",
+          "prediction": 0.2917786193181503,
+          "actual": 0.271,
+          "absolute_error": 0.020778619318150282,
+          "mase_denominator": 0.008000000000000007,
+          "scaled_absolute_error": 2.597327414768783,
+          "pandemic_transition": false,
+          "intervals": {
+            "80": {
+              "lower": 0.2759336252432551,
+              "upper": 0.3085334837903635
+            },
+            "95": {
+              "lower": 0.26674532590585526,
+              "upper": 0.3191612164227891
+            }
+          }
+        },
+        {
+          "model": "B0",
+          "origin_year": 2024,
+          "target_year": 2025,
+          "training_max_year": 2024,
+          "n_valid_differences": 9,
+          "horizon": 1,
+          "point_summary": "median_or_deterministic_point",
+          "prediction": 0.271,
+          "actual": 0.26,
+          "absolute_error": 0.01100000000000001,
+          "mase_denominator": 0.009444444444444446,
+          "scaled_absolute_error": 1.164705882352942,
+          "pandemic_transition": false
+        },
+        {
+          "model": "B1",
+          "origin_year": 2024,
+          "target_year": 2025,
+          "training_max_year": 2024,
+          "n_valid_differences": 9,
+          "horizon": 1,
+          "point_summary": "median_or_deterministic_point",
+          "prediction": 0.268558187745698,
+          "actual": 0.26,
+          "absolute_error": 0.008558187745697998,
+          "mase_denominator": 0.009444444444444446,
+          "scaled_absolute_error": 0.9061610554268467,
+          "pandemic_transition": false
+        },
+        {
+          "model": "B2",
+          "origin_year": 2024,
+          "target_year": 2025,
+          "training_max_year": 2024,
+          "n_valid_differences": 9,
+          "horizon": 1,
+          "point_summary": "median_or_deterministic_point",
+          "prediction": 0.2688013756103164,
+          "actual": 0.26,
+          "absolute_error": 0.008801375610316409,
+          "mase_denominator": 0.009444444444444446,
+          "scaled_absolute_error": 0.9319103587393842,
+          "pandemic_transition": false,
+          "intervals": {
+            "80": {
+              "lower": 0.25318712745012667,
+              "upper": 0.2853785666659977
+            },
+            "95": {
+              "lower": 0.2442563603159833,
+              "upper": 0.295812888706466
+            }
+          }
+        }
+      ],
+      "skipped_origins": [
+        {
+          "origin_year": 2015,
+          "target_year": 2016,
+          "n_valid_differences": 0,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2016,
+          "target_year": 2017,
+          "n_valid_differences": 1,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2017,
+          "target_year": 2018,
+          "n_valid_differences": 2,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2018,
+          "target_year": 2019,
+          "n_valid_differences": 3,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2019,
+          "target_year": 2020,
+          "n_valid_differences": 4,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2020,
+          "target_year": 2021,
+          "n_valid_differences": 5,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2021,
+          "target_year": 2022,
+          "n_valid_differences": 6,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2022,
+          "target_year": 2023,
+          "n_valid_differences": 7,
+          "reason": "insufficient_prior_annual_differences"
+        }
+      ]
+    },
+    "pandemic_training_exclusion_rolling_h1": {
+      "analysis_type": "empirical_out_of_sample_forecast_evaluation",
+      "status": "skipped_insufficient_valid_differences",
+      "minimum_training_differences": 8,
+      "excluded_training_endpoint_years": [
+        2020,
+        2021,
+        2022
+      ],
+      "prior": {
+        "mu": 0.0,
+        "kappa": 1.0,
+        "alpha": 2.0,
+        "beta": 0.0025000000000000005
+      },
+      "n_test_origins": 0,
+      "evaluation_purpose": "diagnostic_only",
+      "small_test_sample_warning": true,
+      "limitations": [
+        "Predictive performance is descriptive in a small annual sample.",
+        "Priors are transparent analyst choices, not empirically calibrated engine parameters.",
+        "The log-increment model assumes constant drift and iid Gaussian increments.",
+        "No engine-technology or policy causal effect is identified."
+      ],
+      "scores": {
+        "all": {
+          "B0": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B1": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B2": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": [],
+            "coverage_80": null,
+            "mean_width_80": null,
+            "coverage_95": null,
+            "mean_width_95": null
+          }
+        },
+        "pandemic_transition": {
+          "B0": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B1": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B2": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": [],
+            "coverage_80": null,
+            "mean_width_80": null,
+            "coverage_95": null,
+            "mean_width_95": null
+          }
+        },
+        "other_transition": {
+          "B0": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B1": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": []
+          },
+          "B2": {
+            "n_test": 0,
+            "MAE": null,
+            "MASE": null,
+            "n_MASE": 0,
+            "test_years": [],
+            "coverage_80": null,
+            "mean_width_80": null,
+            "coverage_95": null,
+            "mean_width_95": null
+          }
+        }
+      },
+      "forecasts": [],
+      "skipped_origins": [
+        {
+          "origin_year": 2015,
+          "target_year": 2016,
+          "n_valid_differences": 0,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2016,
+          "target_year": 2017,
+          "n_valid_differences": 1,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2017,
+          "target_year": 2018,
+          "n_valid_differences": 2,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2018,
+          "target_year": 2019,
+          "n_valid_differences": 3,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2019,
+          "target_year": 2020,
+          "n_valid_differences": 4,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2020,
+          "target_year": 2021,
+          "n_valid_differences": 4,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2021,
+          "target_year": 2022,
+          "n_valid_differences": 4,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2022,
+          "target_year": 2023,
+          "n_valid_differences": 4,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2023,
+          "target_year": 2024,
+          "n_valid_differences": 4,
+          "reason": "insufficient_prior_annual_differences"
+        },
+        {
+          "origin_year": 2024,
+          "target_year": 2025,
+          "n_valid_differences": 5,
+          "reason": "insufficient_prior_annual_differences"
+        }
+      ]
+    },
+    "latest_h1": {
+      "analysis_type": "empirical_conditional_statistical_projection",
+      "n_valid_differences": 10,
+      "prior": {
+        "mu": 0.0,
+        "kappa": 1.0,
+        "alpha": 2.0,
+        "beta": 0.0025000000000000005
+      },
+      "excluded_training_endpoint_years": [],
+      "status": "completed",
+      "origin_year": 2025,
+      "posterior": {
+        "n": 10,
+        "mu": -0.011172557847559439,
+        "kappa": 11.0,
+        "alpha": 7.0,
+        "beta": 0.012112438909355155
+      },
+      "forecast": {
+        "point_summary": "median",
+        "median": 0.2571113020806053,
+        "log_location": -1.3582462058141687,
+        "log_scale": 0.04344712668338795,
+        "degrees_of_freedom": 14.0,
+        "horizon": 1,
+        "intervals": {
+          "80": {
+            "lower": 0.24251689258507755,
+            "upper": 0.27258398766755393
+          },
+          "95": {
+            "lower": 0.23423485227094812,
+            "upper": 0.2822219708838067
+          }
+        }
+      }
+    },
+    "latest_h1_pandemic_training_exclusion": {
+      "analysis_type": "empirical_conditional_statistical_projection",
+      "n_valid_differences": 6,
+      "prior": {
+        "mu": 0.0,
+        "kappa": 1.0,
+        "alpha": 2.0,
+        "beta": 0.0025000000000000005
+      },
+      "excluded_training_endpoint_years": [
+        2020,
+        2021,
+        2022
+      ],
+      "status": "skipped_insufficient_valid_differences"
+    },
+    "prior_scale_sensitivity": {
+      "0.02": {
+        "analysis_type": "empirical_out_of_sample_forecast_evaluation",
+        "status": "completed",
+        "minimum_training_differences": 8,
+        "excluded_training_endpoint_years": [],
+        "prior": {
+          "mu": 0.0,
+          "kappa": 1.0,
+          "alpha": 2.0,
+          "beta": 0.0004
+        },
+        "n_test_origins": 2,
+        "evaluation_purpose": "diagnostic_only",
+        "small_test_sample_warning": true,
+        "limitations": [
+          "Predictive performance is descriptive in a small annual sample.",
+          "Priors are transparent analyst choices, not empirically calibrated engine parameters.",
+          "The log-increment model assumes constant drift and iid Gaussian increments.",
+          "No engine-technology or policy causal effect is identified."
+        ],
+        "scores": {
+          "all": {
+            "B0": {
+              "n_test": 2,
+              "MAE": 0.015999999999999986,
+              "MASE": 1.8948529411764674,
+              "n_MASE": 2,
+              "test_years": [
+                2024,
+                2025
+              ]
+            },
+            "B1": {
+              "n_test": 2,
+              "MAE": 0.014654573141254013,
+              "MASE": 1.7500154362640488,
+              "n_MASE": 2,
+              "test_years": [
+                2024,
+                2025
+              ]
+            },
+            "B2": {
+              "n_test": 2,
+              "MAE": 0.014789997464233345,
+              "MASE": 1.7646188867540835,
+              "n_MASE": 2,
+              "test_years": [
+                2024,
+                2025
+              ],
+              "coverage_80": 0.5,
+              "mean_width_80": 0.028872342993518735,
+              "coverage_95": 1.0,
+              "mean_width_95": 0.046322613875203186
+            }
+          },
+          "pandemic_transition": {
+            "B0": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B1": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B2": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": [],
+              "coverage_80": null,
+              "mean_width_80": null,
+              "coverage_95": null,
+              "mean_width_95": null
+            }
+          },
+          "other_transition": {
+            "B0": {
+              "n_test": 2,
+              "MAE": 0.015999999999999986,
+              "MASE": 1.8948529411764674,
+              "n_MASE": 2,
+              "test_years": [
+                2024,
+                2025
+              ]
+            },
+            "B1": {
+              "n_test": 2,
+              "MAE": 0.014654573141254013,
+              "MASE": 1.7500154362640488,
+              "n_MASE": 2,
+              "test_years": [
+                2024,
+                2025
+              ]
+            },
+            "B2": {
+              "n_test": 2,
+              "MAE": 0.014789997464233345,
+              "MASE": 1.7646188867540835,
+              "n_MASE": 2,
+              "test_years": [
+                2024,
+                2025
+              ],
+              "coverage_80": 0.5,
+              "mean_width_80": 0.028872342993518735,
+              "coverage_95": 1.0,
+              "mean_width_95": 0.046322613875203186
+            }
+          }
+        },
+        "forecasts": [
+          {
+            "model": "B0",
+            "origin_year": 2023,
+            "target_year": 2024,
+            "training_max_year": 2023,
+            "n_valid_differences": 8,
+            "horizon": 1,
+            "point_summary": "median_or_deterministic_point",
+            "prediction": 0.292,
+            "actual": 0.271,
+            "absolute_error": 0.020999999999999963,
+            "mase_denominator": 0.008000000000000007,
+            "scaled_absolute_error": 2.624999999999993,
+            "pandemic_transition": false
+          },
+          {
+            "model": "B1",
+            "origin_year": 2023,
+            "target_year": 2024,
+            "training_max_year": 2023,
+            "n_valid_differences": 8,
+            "horizon": 1,
+            "point_summary": "median_or_deterministic_point",
+            "prediction": 0.29175095853681005,
+            "actual": 0.271,
+            "absolute_error": 0.020750958536810027,
+            "mase_denominator": 0.008000000000000007,
+            "scaled_absolute_error": 2.593869817101251,
+            "pandemic_transition": false
+          },
+          {
+            "model": "B2",
+            "origin_year": 2023,
+            "target_year": 2024,
+            "training_max_year": 2023,
+            "n_valid_differences": 8,
+            "horizon": 1,
+            "point_summary": "median_or_deterministic_point",
+            "prediction": 0.2917786193181503,
+            "actual": 0.271,
+            "absolute_error": 0.020778619318150282,
+            "mase_denominator": 0.008000000000000007,
+            "scaled_absolute_error": 2.597327414768783,
+            "pandemic_transition": false,
+            "intervals": {
+              "80": {
+                "lower": 0.2778225366699066,
+                "upper": 0.3064357690764249
+              },
+              "95": {
+                "lower": 0.2696849668444242,
+                "upper": 0.31568227064105725
+              }
+            }
+          },
+          {
+            "model": "B0",
+            "origin_year": 2024,
+            "target_year": 2025,
+            "training_max_year": 2024,
+            "n_valid_differences": 9,
+            "horizon": 1,
+            "point_summary": "median_or_deterministic_point",
+            "prediction": 0.271,
+            "actual": 0.26,
+            "absolute_error": 0.01100000000000001,
+            "mase_denominator": 0.009444444444444446,
+            "scaled_absolute_error": 1.164705882352942,
+            "pandemic_transition": false
+          },
+          {
+            "model": "B1",
+            "origin_year": 2024,
+            "target_year": 2025,
+            "training_max_year": 2024,
+            "n_valid_differences": 9,
+            "horizon": 1,
+            "point_summary": "median_or_deterministic_point",
+            "prediction": 0.268558187745698,
+            "actual": 0.26,
+            "absolute_error": 0.008558187745697998,
+            "mase_denominator": 0.009444444444444446,
+            "scaled_absolute_error": 0.9061610554268467,
+            "pandemic_transition": false
+          },
+          {
+            "model": "B2",
+            "origin_year": 2024,
+            "target_year": 2025,
+            "training_max_year": 2024,
+            "n_valid_differences": 9,
+            "horizon": 1,
+            "point_summary": "median_or_deterministic_point",
+            "prediction": 0.2688013756103164,
+            "actual": 0.26,
+            "absolute_error": 0.008801375610316409,
+            "mase_denominator": 0.009444444444444446,
+            "scaled_absolute_error": 0.9319103587393842,
+            "pandemic_transition": false,
+            "intervals": {
+              "80": {
+                "lower": 0.2546300011233292,
+                "upper": 0.28376145470384834
+              },
+              "95": {
+                "lower": 0.2464874290582171,
+                "upper": 0.29313535301199045
+              }
+            }
+          }
+        ],
+        "skipped_origins": [
+          {
+            "origin_year": 2015,
+            "target_year": 2016,
+            "n_valid_differences": 0,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2016,
+            "target_year": 2017,
+            "n_valid_differences": 1,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2017,
+            "target_year": 2018,
+            "n_valid_differences": 2,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2018,
+            "target_year": 2019,
+            "n_valid_differences": 3,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2019,
+            "target_year": 2020,
+            "n_valid_differences": 4,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2020,
+            "target_year": 2021,
+            "n_valid_differences": 5,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2021,
+            "target_year": 2022,
+            "n_valid_differences": 6,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2022,
+            "target_year": 2023,
+            "n_valid_differences": 7,
+            "reason": "insufficient_prior_annual_differences"
+          }
+        ]
+      },
+      "0.1": {
+        "analysis_type": "empirical_out_of_sample_forecast_evaluation",
+        "status": "completed",
+        "minimum_training_differences": 8,
+        "excluded_training_endpoint_years": [],
+        "prior": {
+          "mu": 0.0,
+          "kappa": 1.0,
+          "alpha": 2.0,
+          "beta": 0.010000000000000002
+        },
+        "n_test_origins": 2,
+        "evaluation_purpose": "diagnostic_only",
+        "small_test_sample_warning": true,
+        "limitations": [
+          "Predictive performance is descriptive in a small annual sample.",
+          "Priors are transparent analyst choices, not empirically calibrated engine parameters.",
+          "The log-increment model assumes constant drift and iid Gaussian increments.",
+          "No engine-technology or policy causal effect is identified."
+        ],
+        "scores": {
+          "all": {
+            "B0": {
+              "n_test": 2,
+              "MAE": 0.015999999999999986,
+              "MASE": 1.8948529411764674,
+              "n_MASE": 2,
+              "test_years": [
+                2024,
+                2025
+              ]
+            },
+            "B1": {
+              "n_test": 2,
+              "MAE": 0.014654573141254013,
+              "MASE": 1.7500154362640488,
+              "n_MASE": 2,
+              "test_years": [
+                2024,
+                2025
+              ]
+            },
+            "B2": {
+              "n_test": 2,
+              "MAE": 0.014789997464233345,
+              "MASE": 1.7646188867540835,
+              "n_MASE": 2,
+              "test_years": [
+                2024,
+                2025
+              ],
+              "coverage_80": 1.0,
+              "mean_width_80": 0.042654379794419814,
+              "coverage_95": 1.0,
+              "mean_width_95": 0.06849572556786014
+            }
+          },
+          "pandemic_transition": {
+            "B0": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B1": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": []
+            },
+            "B2": {
+              "n_test": 0,
+              "MAE": null,
+              "MASE": null,
+              "n_MASE": 0,
+              "test_years": [],
+              "coverage_80": null,
+              "mean_width_80": null,
+              "coverage_95": null,
+              "mean_width_95": null
+            }
+          },
+          "other_transition": {
+            "B0": {
+              "n_test": 2,
+              "MAE": 0.015999999999999986,
+              "MASE": 1.8948529411764674,
+              "n_MASE": 2,
+              "test_years": [
+                2024,
+                2025
+              ]
+            },
+            "B1": {
+              "n_test": 2,
+              "MAE": 0.014654573141254013,
+              "MASE": 1.7500154362640488,
+              "n_MASE": 2,
+              "test_years": [
+                2024,
+                2025
+              ]
+            },
+            "B2": {
+              "n_test": 2,
+              "MAE": 0.014789997464233345,
+              "MASE": 1.7646188867540835,
+              "n_MASE": 2,
+              "test_years": [
+                2024,
+                2025
+              ],
+              "coverage_80": 1.0,
+              "mean_width_80": 0.042654379794419814,
+              "coverage_95": 1.0,
+              "mean_width_95": 0.06849572556786014
+            }
+          }
+        },
+        "forecasts": [
+          {
+            "model": "B0",
+            "origin_year": 2023,
+            "target_year": 2024,
+            "training_max_year": 2023,
+            "n_valid_differences": 8,
+            "horizon": 1,
+            "point_summary": "median_or_deterministic_point",
+            "prediction": 0.292,
+            "actual": 0.271,
+            "absolute_error": 0.020999999999999963,
+            "mase_denominator": 0.008000000000000007,
+            "scaled_absolute_error": 2.624999999999993,
+            "pandemic_transition": false
+          },
+          {
+            "model": "B1",
+            "origin_year": 2023,
+            "target_year": 2024,
+            "training_max_year": 2023,
+            "n_valid_differences": 8,
+            "horizon": 1,
+            "point_summary": "median_or_deterministic_point",
+            "prediction": 0.29175095853681005,
+            "actual": 0.271,
+            "absolute_error": 0.020750958536810027,
+            "mase_denominator": 0.008000000000000007,
+            "scaled_absolute_error": 2.593869817101251,
+            "pandemic_transition": false
+          },
+          {
+            "model": "B2",
+            "origin_year": 2023,
+            "target_year": 2024,
+            "training_max_year": 2023,
+            "n_valid_differences": 8,
+            "horizon": 1,
+            "point_summary": "median_or_deterministic_point",
+            "prediction": 0.2917786193181503,
+            "actual": 0.271,
+            "absolute_error": 0.020778619318150282,
+            "mase_denominator": 0.008000000000000007,
+            "scaled_absolute_error": 2.597327414768783,
+            "pandemic_transition": false,
+            "intervals": {
+              "80": {
+                "lower": 0.27061078448411685,
+                "upper": 0.3146022537627393
+              },
+              "95": {
+                "lower": 0.2585272216513546,
+                "upper": 0.3293067637032721
+              }
+            }
+          },
+          {
+            "model": "B0",
+            "origin_year": 2024,
+            "target_year": 2025,
+            "training_max_year": 2024,
+            "n_valid_differences": 9,
+            "horizon": 1,
+            "point_summary": "median_or_deterministic_point",
+            "prediction": 0.271,
+            "actual": 0.26,
+            "absolute_error": 0.01100000000000001,
+            "mase_denominator": 0.009444444444444446,
+            "scaled_absolute_error": 1.164705882352942,
+            "pandemic_transition": false
+          },
+          {
+            "model": "B1",
+            "origin_year": 2024,
+            "target_year": 2025,
+            "training_max_year": 2024,
+            "n_valid_differences": 9,
+            "horizon": 1,
+            "point_summary": "median_or_deterministic_point",
+            "prediction": 0.268558187745698,
+            "actual": 0.26,
+            "absolute_error": 0.008558187745697998,
+            "mase_denominator": 0.009444444444444446,
+            "scaled_absolute_error": 0.9061610554268467,
+            "pandemic_transition": false
+          },
+          {
+            "model": "B2",
+            "origin_year": 2024,
+            "target_year": 2025,
+            "training_max_year": 2024,
+            "n_valid_differences": 9,
+            "horizon": 1,
+            "point_summary": "median_or_deterministic_point",
+            "prediction": 0.2688013756103164,
+            "actual": 0.26,
+            "absolute_error": 0.008801375610316409,
+            "mase_denominator": 0.009444444444444446,
+            "scaled_absolute_error": 0.9319103587393842,
+            "pandemic_transition": false,
+            "intervals": {
+              "80": {
+                "lower": 0.24893541848436238,
+                "upper": 0.29025270879457954
+              },
+              "95": {
+                "lower": 0.23772643598059293,
+                "upper": 0.3039383450643957
+              }
+            }
+          }
+        ],
+        "skipped_origins": [
+          {
+            "origin_year": 2015,
+            "target_year": 2016,
+            "n_valid_differences": 0,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2016,
+            "target_year": 2017,
+            "n_valid_differences": 1,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2017,
+            "target_year": 2018,
+            "n_valid_differences": 2,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2018,
+            "target_year": 2019,
+            "n_valid_differences": 3,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2019,
+            "target_year": 2020,
+            "n_valid_differences": 4,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2020,
+            "target_year": 2021,
+            "n_valid_differences": 5,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2021,
+            "target_year": 2022,
+            "n_valid_differences": 6,
+            "reason": "insufficient_prior_annual_differences"
+          },
+          {
+            "origin_year": 2022,
+            "target_year": 2023,
+            "n_valid_differences": 7,
+            "reason": "insufficient_prior_annual_differences"
+          }
+        ]
+      }
+    }
+  },
+  "conditional_deployment_scenarios": {
+    "analysis_type": "conditional_uncalibrated_deployment_scenarios",
+    "status": "completed_for_explicit_assumption_domain",
+    "configuration": {
+      "horizon": 15,
+      "ranges": {
+        "g": [
+          0.01980262729617973,
+          0.058268908123975824
+        ],
+        "b": [
+          0.0,
+          0.020202707317519466
+        ],
+        "theta": [
+          0.1,
+          0.3
+        ],
+        "r": [
+          0.02,
+          0.12
+        ]
+      },
+      "tau_values": [
+        0.0,
+        3.0,
+        8.0
+      ],
+      "target_fuel_ratio": 1.0,
+      "sobol_power": 12,
+      "seed": 20261016,
+      "check_convergence": true,
+      "parameter_evidence": {}
+    },
+    "interpretation": [
+      "Parameter bounds are supplied assumptions unless independently documented.",
+      "Design-space fractions and quantiles are not empirical probabilities or confidence intervals.",
+      "No aircraft-count replacement rate, engine R&D capability, or causal effect is inferred.",
+      "g and b are continuous log rates per year; r is fuel-use-weighted annual adoption.",
+      "theta is realized incremental efficiency relative to the baseline path, avoiding double counting.",
+      "tau is a deployment delay in years; cumulative fuel excludes the observed base year."
+    ],
+    "delay_summaries": [
+      {
+        "tau": 0.0,
+        "sobol_power": 12,
+        "n_design_points": 4096,
+        "seed": 20261016,
+        "fraction_of_design_points_meeting_target": 0.0703125,
+        "terminal_fuel_ratio_design_quantiles": {
+          "0.05": 0.9787440149626552,
+          "0.5": 1.346467533038311,
+          "0.95": 1.8621962923831974
+        },
+        "cumulative_fuel_design_quantiles_baseline_year_units": {
+          "0.05": 14.594144074352576,
+          "0.5": 17.442427723253378,
+          "0.95": 21.071070220730096
+        },
+        "sampled_terminal_min": 0.7773759345594011,
+        "sampled_terminal_max": 2.226993068843841
+      },
+      {
+        "tau": 3.0,
+        "sobol_power": 12,
+        "n_design_points": 4096,
+        "seed": 20261017,
+        "fraction_of_design_points_meeting_target": 0.05224609375,
+        "terminal_fuel_ratio_design_quantiles": {
+          "0.05": 0.998152926730138,
+          "0.5": 1.3709816419731489,
+          "0.95": 1.8892169412987732
+        },
+        "cumulative_fuel_design_quantiles_baseline_year_units": {
+          "0.05": 15.056692560283263,
+          "0.5": 17.906243888497663,
+          "0.95": 21.50927175561485
+        },
+        "sampled_terminal_min": 0.8162040383780793,
+        "sampled_terminal_max": 2.2237181061382034
+      },
+      {
+        "tau": 8.0,
+        "sobol_power": 12,
+        "n_design_points": 4096,
+        "seed": 20261018,
+        "fraction_of_design_points_meeting_target": 0.0263671875,
+        "terminal_fuel_ratio_design_quantiles": {
+          "0.05": 1.040579689043086,
+          "0.5": 1.4226099279018232,
+          "0.95": 1.9443199055570908
+        },
+        "cumulative_fuel_design_quantiles_baseline_year_units": {
+          "0.05": 15.674389110753024,
+          "0.5": 18.57660149641599,
+          "0.95": 22.152450058241218
+        },
+        "sampled_terminal_min": 0.8710200518940526,
+        "sampled_terminal_max": 2.315720646289025
+      }
+    ],
+    "exact_domain_bounds": {
+      "analysis_type": "conditional_exact_box_bounds",
+      "worst_corner": {
+        "parameters": {
+          "g": 0.058268908123975824,
+          "b": 0.0,
+          "theta": 0.1,
+          "r": 0.02,
+          "tau": 8.0
+        },
+        "terminal_fuel_ratio": 2.364953709723869,
+        "cumulative_future_fuel_in_baseline_year_units": 24.55736536826536
+      },
+      "best_corner": {
+        "parameters": {
+          "g": 0.01980262729617973,
+          "b": 0.020202707317519466,
+          "theta": 0.3,
+          "r": 0.12,
+          "tau": 0.0
+        },
+        "terminal_fuel_ratio": 0.7396400823392523,
+        "cumulative_future_fuel_in_baseline_year_units": 12.338811132972511
+      },
+      "entire_domain_meets_target": false,
+      "no_point_in_domain_can_meet_target": false
+    },
+    "resolution_comparison": [
+      {
+        "tau": 0.0,
+        "higher_resolution": {
+          "tau": 0.0,
+          "sobol_power": 14,
+          "n_design_points": 16384,
+          "seed": 20261016,
+          "fraction_of_design_points_meeting_target": 0.06793212890625,
+          "terminal_fuel_ratio_design_quantiles": {
+            "0.05": 0.9773516470117702,
+            "0.5": 1.3468670603944997,
+            "0.95": 1.8580411695710992
+          },
+          "cumulative_fuel_design_quantiles_baseline_year_units": {
+            "0.05": 14.587928666386436,
+            "0.5": 17.446919510572584,
+            "0.95": 21.052636613353254
+          },
+          "sampled_terminal_min": 0.7755187930245837,
+          "sampled_terminal_max": 2.2322007082086297
+        },
+        "change_in_design_target_fraction": -0.00238037109375,
+        "change_in_terminal_median": 0.0003995273561887558
+      },
+      {
+        "tau": 3.0,
+        "higher_resolution": {
+          "tau": 3.0,
+          "sobol_power": 14,
+          "n_design_points": 16384,
+          "seed": 20261017,
+          "fraction_of_design_points_meeting_target": 0.0511474609375,
+          "terminal_fuel_ratio_design_quantiles": {
+            "0.05": 0.9990599072408625,
+            "0.5": 1.370411562458378,
+            "0.95": 1.8849949924034932
+          },
+          "cumulative_fuel_design_quantiles_baseline_year_units": {
+            "0.05": 15.074927293999554,
+            "0.5": 17.896938869643876,
+            "0.95": 21.47347904801615
+          },
+          "sampled_terminal_min": 0.796921915964127,
+          "sampled_terminal_max": 2.31314025062013
+        },
+        "change_in_design_target_fraction": -0.0010986328125,
+        "change_in_terminal_median": -0.0005700795147709492
+      },
+      {
+        "tau": 8.0,
+        "higher_resolution": {
+          "tau": 8.0,
+          "sobol_power": 14,
+          "n_design_points": 16384,
+          "seed": 20261018,
+          "fraction_of_design_points_meeting_target": 0.02606201171875,
+          "terminal_fuel_ratio_design_quantiles": {
+            "0.05": 1.0403844121157513,
+            "0.5": 1.423834618481885,
+            "0.95": 1.9474361158048141
+          },
+          "cumulative_fuel_design_quantiles_baseline_year_units": {
+            "0.05": 15.665088484977687,
+            "0.5": 18.56993669030887,
+            "0.95": 22.1723998578276
+          },
+          "sampled_terminal_min": 0.8607911946590333,
+          "sampled_terminal_max": 2.315720646289025
+        },
+        "change_in_design_target_fraction": -0.00030517578125,
+        "change_in_terminal_median": 0.0012246905800619157
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "fresh_extraction_offline_rerun": "passed",
+  "quantitative_outputs_byte_identical": {
+    "output/analysis/accounting_results.json": true,
+    "output/transition/transition_results.json": true,
+    "output/transition/post2017_diagnostic.json": true,
+    "output/transition/illustrative_frontiers.json": true,
+    "output/SUPPLEMENTARY_INFORMATION.md": true
+  },
+  "boundary": "Rendered PDFs may include varying metadata; numerical tables/JSON were compared, not publication or author approval."
+}

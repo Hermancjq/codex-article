@@ -1,0 +1,17 @@
+
+test_boundary_cases (__main__.DeploymentChecks.test_boundary_cases) ... ok
+test_corners_enclose_full_grid_and_sobol_points (__main__.DeploymentChecks.test_corners_enclose_full_grid_and_sobol_points) ... ok
+test_exact_full_adoption_and_monotonicity (__main__.DeploymentChecks.test_exact_full_adoption_and_monotonicity) ... ok
+test_explicit_configuration_required_and_constant_ranges_work (__main__.DeploymentChecks.test_explicit_configuration_required_and_constant_ranges_work) ... ok
+test_frontier_substitution_and_impossibility (__main__.DeploymentChecks.test_frontier_substitution_and_impossibility) ... ok
+test_actual_difference_set_controls_latest_skip (__main__.ForecastChecks.test_actual_difference_set_controls_latest_skip) ... ok
+test_conjugate_posterior_and_horizon_variance (__main__.ForecastChecks.test_conjugate_posterior_and_horizon_variance) ... ok
+test_missing_and_excluded_years_never_bridge (__main__.ForecastChecks.test_missing_and_excluded_years_never_bridge) ... ok
+test_no_future_data_leakage (__main__.ForecastChecks.test_no_future_data_leakage) ... ok
+test_skip_and_exact_two_fold_small_sample (__main__.ForecastChecks.test_skip_and_exact_two_fold_small_sample) ... ok
+test_zero_mase_denominator_is_undefined (__main__.ForecastChecks.test_zero_mase_denominator_is_undefined) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.056s
+
+OK

@@ -1,0 +1,15 @@
+{
+  "date_utc": "2026-10-16",
+  "scope_match": "true",
+  "scope_interpretation": "official transport-aviation anchors plus continuity of the published statistical series; not independently matched microdata in every year",
+  "independent_reviewer": "/root/source_audit",
+  "reviewer_conclusion": "Supports bounded interpretation on 2019 transport aviation 0.285, 2022 action same-paragraph transport fleet 2019 0.285 and 2021 0.309, 2022 plan transport aviation metric, and 2024 item 126 transport denominator",
+  "coverage_definition": "Q covers mainland-registered commercial air carriers, domestic (including Hong Kong/Macao/Taiwan routes) and international operations; excludes statistics of Hong Kong/Macao/Taiwan-registered carriers. I is interpreted as transport-aviation kg fuel per transport tonne-km on official anchors plus continuity of the identically named, common-2005-baseline published series, not year-by-year microdata matching. Mapping anchors: CAAC 2020 press conference explicitly identifies 2019 transport-aviation intensity 0.285 https://www.caac.gov.cn/XWZX/MHYW/202012/t20201222_205702.html; CAAC 2022 policy action places transport-fleet 2019 0.285 and 2021 0.309 in the same series https://www.caac.gov.cn/XWZX/MHYW/202209/t20220923_215418.html; 2024 survey system item 126 defines transport fuel/transport tonne-km https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202406/P020240604342006406114.pdf physical p.84. Annual bulletins do not repeat denominator definitions each year. Q*I is a reconstructed fuel-use estimate, not an independent official fuel observation; no independent aggregate fuel-total validation. I is rounded to 0.001 kg/tkm. 2017 processing/audit rules changed; sensitivity from 2017 onward is required.",
+  "prohibited_claims": [
+    "Independently observed or validated fuel totals",
+    "Engine-specific fuel performance or causal domestic-engine R&D effect",
+    "Full lifecycle CO2-equivalent or all aviation climate impacts",
+    "Zero missingness before 2015",
+    "No 2017 statistical processing discontinuity"
+  ]
+}

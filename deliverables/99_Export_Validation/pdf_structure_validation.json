@@ -1,0 +1,32 @@
+{
+  "01_Manuscript/MANUSCRIPT_EN.pdf": {
+    "pages": 14,
+    "text_characters": 37999,
+    "spans_outside_page": [
+      {
+        "page": 14,
+        "text": "2020 (title translated from Chinese). https://www.caac.gov.cn/XWZX/MHYW/202012/t"
+      }
+    ]
+  },
+  "02_Supplementary/SUPPLEMENTARY_INFORMATION.pdf": {
+    "pages": 4,
+    "text_characters": 8266,
+    "spans_outside_page": []
+  },
+  "03_Research_Reports/COMPLETE_RESEARCH_COMPENDIUM.pdf": {
+    "pages": 56,
+    "text_characters": 161952,
+    "spans_outside_page": [
+      {
+        "page": 22,
+        "text": " 96eda33b596c8f97ee79e17c265c6957904"
+      }
+    ]
+  },
+  "05_Figures/FIGURE_COLLECTION.pdf": {
+    "pages": 3,
+    "text_characters": 1283,
+    "spans_outside_page": []
+  }
+}

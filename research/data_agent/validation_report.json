@@ -1,0 +1,34 @@
+{
+  "check_utc": "2026-10-16T04:39:16.900516+00:00",
+  "verified_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "verified_n": 11,
+  "archived_source_sha256_checked": 16,
+  "observed_fuel_totals": 0,
+  "missing_intensity_years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014
+  ],
+  "scope_interpretation": "official anchors + published statistical series continuity; independent reviewer approved bounded interpretation",
+  "analysis_ready": true,
+  "caveats": [
+    "Fuel is reconstructed, not independently observed",
+    "I precision 0.001 kg/tkm",
+    "2017 statistical processing change",
+    "National annual series n=11 does not support high-dimensional causal modeling"
+  ]
+}

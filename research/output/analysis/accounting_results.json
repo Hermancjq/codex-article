@@ -1,0 +1,601 @@
+{
+  "status": "official-input accounting completed",
+  "observations": 11,
+  "period": [
+    2015,
+    2025
+  ],
+  "intervals": [
+    {
+      "start": 2015,
+      "end": 2016,
+      "fuel_start_10kt": 2503.8509999999997,
+      "fuel_end_10kt": 2820.1543,
+      "change_10kt": 316.3033000000005,
+      "activity_effect_10kt": 325.36248329776686,
+      "intensity_effect_10kt": -9.059183297766731,
+      "residual_10kt": 3.6415315207705135e-13,
+      "activity_growth": 0.1301708448306229,
+      "intensity_growth": -0.003401360544217691,
+      "fuel_growth": 0.126326726310791,
+      "fuel_activity_log_elasticity": 0.9721566444725112,
+      "break_even_intensity_reduction": 0.11517802412442468,
+      "pandemic_transition": false
+    },
+    {
+      "start": 2016,
+      "end": 2017,
+      "fuel_start_10kt": 2820.1543,
+      "fuel_end_10kt": 3173.4243999999994,
+      "change_10kt": 353.2700999999993,
+      "activity_effect_10kt": 353.27009999999984,
+      "intensity_effect_10kt": 0.0,
+      "residual_10kt": -5.684341886080801e-13,
+      "activity_growth": 0.1252662310001973,
+      "intensity_growth": 0.0,
+      "fuel_growth": 0.12526623100019707,
+      "fuel_activity_log_elasticity": 0.9999999999999983,
+      "break_even_intensity_reduction": 0.11132141670052065,
+      "pandemic_transition": false
+    },
+    {
+      "start": 2017,
+      "end": 2018,
+      "fuel_start_10kt": 3173.4243999999994,
+      "fuel_end_10kt": 3462.7410999999997,
+      "change_10kt": 289.3167000000003,
+      "activity_effect_10kt": 357.92561909343203,
+      "intensity_effect_10kt": -68.60891909343124,
+      "residual_10kt": -4.831690603168681e-13,
+      "activity_growth": 0.11398050005539773,
+      "intensity_growth": -0.020477815699658675,
+      "fuel_growth": 0.09116861268224952,
+      "fuel_activity_log_elasticity": 0.8083151486411979,
+      "break_even_intensity_reduction": 0.10231821836174826,
+      "pandemic_transition": false
+    },
+    {
+      "start": 2018,
+      "end": 2019,
+      "fuel_start_10kt": 3462.7410999999997,
+      "fuel_end_10kt": 3685.7625,
+      "change_10kt": 223.02140000000009,
+      "activity_effect_10kt": 248.00815811614137,
+      "intensity_effect_10kt": -24.98675811614188,
+      "residual_10kt": 5.897504706808832e-13,
+      "activity_growth": 0.0718755439151948,
+      "intensity_growth": -0.006968641114982632,
+      "fuel_growth": 0.06440602792972316,
+      "fuel_activity_log_elasticity": 0.8992502573062936,
+      "break_even_intensity_reduction": 0.06705586700173982,
+      "pandemic_transition": false
+    },
+    {
+      "start": 2019,
+      "end": 2020,
+      "fuel_start_10kt": 3685.7625,
+      "fuel_end_10kt": 2523.2916,
+      "change_10kt": -1162.4708999999998,
+      "activity_effect_10kt": -1479.2417369011193,
+      "intensity_effect_10kt": 316.7708369011196,
+      "residual_10kt": -5.684341886080802e-14,
+      "activity_growth": -0.38255557703460275,
+      "intensity_growth": 0.10877192982456152,
+      "fuel_growth": -0.3153949555892437,
+      "fuel_activity_log_elasticity": 0.7858559361874642,
+      "break_even_intensity_reduction": -0.6195789658238469,
+      "pandemic_transition": true
+    },
+    {
+      "start": 2020,
+      "end": 2021,
+      "fuel_start_10kt": 2523.2916,
+      "fuel_end_10kt": 2647.3575,
+      "change_10kt": 124.06590000000006,
+      "activity_effect_10kt": 181.96847574784812,
+      "intensity_effect_10kt": -57.90257574784777,
+      "residual_10kt": -2.913225216616411e-13,
+      "activity_growth": 0.0729358430076017,
+      "intensity_growth": -0.022151898734177222,
+      "fuel_growth": 0.049168276865028115,
+      "fuel_activity_log_elasticity": 0.6817988637324023,
+      "break_even_intensity_reduction": 0.06797782316895251,
+      "pandemic_transition": true
+    },
+    {
+      "start": 2021,
+      "end": 2022,
+      "fuel_start_10kt": 2647.3575,
+      "fuel_end_10kt": 1809.8255999999997,
+      "change_10kt": -837.5319000000004,
+      "activity_effect_10kt": -787.0721719995805,
+      "intensity_effect_10kt": -50.45972800041973,
+      "residual_10kt": -1.5631940186722204e-13,
+      "activity_growth": -0.30051940472716665,
+      "intensity_growth": -0.02265372168284796,
+      "fuel_growth": -0.31636524345503025,
+      "fuel_activity_log_elasticity": 1.0641106747202425,
+      "break_even_intensity_reduction": -0.42963222533707124,
+      "pandemic_transition": true
+    },
+    {
+      "start": 2022,
+      "end": 2023,
+      "fuel_start_10kt": 1809.8255999999997,
+      "fuel_end_10kt": 3469.9527999999996,
+      "change_10kt": 1660.1272,
+      "activity_effect_10kt": 1746.0096983189057,
+      "intensity_effect_10kt": -85.88249831890602,
+      "residual_10kt": 1.7053025658242404e-13,
+      "activity_growth": 0.9829462021091977,
+      "intensity_growth": -0.03311258278145701,
+      "fuel_growth": 0.9172857318406813,
+      "fuel_activity_log_elasticity": 0.9508121298515151,
+      "break_even_intensity_reduction": 0.49569988387161923,
+      "pandemic_transition": true
+    },
+    {
+      "start": 2023,
+      "end": 2024,
+      "fuel_start_10kt": 3469.9527999999996,
+      "fuel_end_10kt": 4024.8107000000005,
+      "change_10kt": 554.8579000000009,
+      "activity_effect_10kt": 834.0319465642301,
+      "intensity_effect_10kt": -279.17404656422895,
+      "residual_10kt": -2.8421709430404007e-13,
+      "activity_growth": 0.24978541494858386,
+      "intensity_growth": -0.07191780821917793,
+      "fuel_growth": 0.1599035871611858,
+      "fuel_activity_log_elasticity": 0.6652717588165795,
+      "break_even_intensity_reduction": 0.19986264198711268,
+      "pandemic_transition": false
+    },
+    {
+      "start": 2024,
+      "end": 2025,
+      "fuel_start_10kt": 4024.8107000000005,
+      "fuel_end_10kt": 4266.158,
+      "change_10kt": 241.3472999999999,
+      "activity_effect_10kt": 413.07599135959134,
+      "intensity_effect_10kt": -171.72869135959192,
+      "residual_10kt": 4.831690603168681e-13,
+      "activity_growth": 0.10480955042183715,
+      "intensity_growth": -0.040590405904059046,
+      "fuel_growth": 0.05996488232353392,
+      "fuel_activity_log_elasticity": 0.5842685245531543,
+      "break_even_intensity_reduction": 0.09486662238013677,
+      "pandemic_transition": false
+    }
+  ],
+  "boundaries": [
+    "Fuel is reconstructed from matched-scope turnover and intensity; it is not an independent observation.",
+    "No causal engine-technology effect is identified.",
+    "No CO2 emission factor or lifecycle claim is assumed.",
+    "Source verification is human/analyst work; schema validation alone cannot verify authenticity."
+  ],
+  "annual": [
+    {
+      "year": 2015,
+      "turnover_100m_tkm": 851.65,
+      "fuel_intensity_kg_tkm": 0.294,
+      "implied_fuel_mt": 25.038509999999995,
+      "activity_index": 100.0,
+      "intensity_index": 100.0,
+      "fuel_index": 100.00000000000001
+    },
+    {
+      "year": 2016,
+      "turnover_100m_tkm": 962.51,
+      "fuel_intensity_kg_tkm": 0.293,
+      "implied_fuel_mt": 28.201542999999997,
+      "activity_index": 113.01708448306229,
+      "intensity_index": 99.65986394557822,
+      "fuel_index": 112.63267263107909
+    },
+    {
+      "year": 2017,
+      "turnover_100m_tkm": 1083.08,
+      "fuel_intensity_kg_tkm": 0.293,
+      "implied_fuel_mt": 31.734243999999997,
+      "activity_index": 127.1743086948864,
+      "intensity_index": 99.65986394557822,
+      "fuel_index": 126.74174301905346
+    },
+    {
+      "year": 2018,
+      "turnover_100m_tkm": 1206.53,
+      "fuel_intensity_kg_tkm": 0.287,
+      "implied_fuel_mt": 34.627410999999995,
+      "activity_index": 141.66969999412905,
+      "intensity_index": 97.61904761904762,
+      "fuel_index": 138.29661189903075
+    },
+    {
+      "year": 2019,
+      "turnover_100m_tkm": 1293.25,
+      "fuel_intensity_kg_tkm": 0.285,
+      "implied_fuel_mt": 36.857625,
+      "activity_index": 151.85228673750953,
+      "intensity_index": 96.93877551020408,
+      "fuel_index": 147.2037473475858
+    },
+    {
+      "year": 2020,
+      "turnover_100m_tkm": 798.51,
+      "fuel_intensity_kg_tkm": 0.316,
+      "implied_fuel_mt": 25.232916,
+      "activity_index": 93.76034756061763,
+      "intensity_index": 107.48299319727892,
+      "fuel_index": 100.77642799032373
+    },
+    {
+      "year": 2021,
+      "turnover_100m_tkm": 856.75,
+      "fuel_intensity_kg_tkm": 0.309,
+      "implied_fuel_mt": 26.473575,
+      "activity_index": 100.598837550637,
+      "intensity_index": 105.10204081632654,
+      "fuel_index": 105.73143130322053
+    },
+    {
+      "year": 2022,
+      "turnover_100m_tkm": 599.28,
+      "fuel_intensity_kg_tkm": 0.302,
+      "implied_fuel_mt": 18.098256,
+      "activity_index": 70.36693477367463,
+      "intensity_index": 102.72108843537416,
+      "fuel_index": 72.28168129812838
+    },
+    {
+      "year": 2023,
+      "turnover_100m_tkm": 1188.34,
+      "fuel_intensity_kg_tkm": 0.292,
+      "implied_fuel_mt": 34.699528,
+      "activity_index": 139.53384606352373,
+      "intensity_index": 99.31972789115646,
+      "fuel_index": 138.5846362263569
+    },
+    {
+      "year": 2024,
+      "turnover_100m_tkm": 1485.17,
+      "fuel_intensity_kg_tkm": 0.271,
+      "implied_fuel_mt": 40.248107000000005,
+      "activity_index": 174.38736570187285,
+      "intensity_index": 92.17687074829934,
+      "fuel_index": 160.74481668437943
+    },
+    {
+      "year": 2025,
+      "turnover_100m_tkm": 1640.83,
+      "fuel_intensity_kg_tkm": 0.26,
+      "implied_fuel_mt": 42.66158,
+      "activity_index": 192.66482710033466,
+      "intensity_index": 88.43537414965986,
+      "fuel_index": 170.38386070097624
+    }
+  ],
+  "periods": [
+    {
+      "fuel_start_10kt": 3173.4243999999994,
+      "fuel_end_10kt": 3685.7625,
+      "change_10kt": 512.3381000000004,
+      "activity_effect_10kt": 607.1041755444963,
+      "intensity_effect_10kt": -94.76607554449654,
+      "residual_10kt": 5.968558980384842e-13,
+      "start": 2017,
+      "end": 2019,
+      "activity_ratio": 1.1940484544078,
+      "intensity_ratio": 0.9726962457337883,
+      "fuel_ratio": 1.1614464488266996,
+      "activity_cagr": 0.09272524195600051,
+      "intensity_cagr": -0.01374635831658988,
+      "fuel_cagr": 0.07770424923849095,
+      "chain_activity_effect_10kt": 605.9337772095735,
+      "chain_intensity_effect_10kt": -93.59567720957313,
+      "intensity_offset_of_activity_percent": 15.446519195644926,
+      "endpoint_rounding_corner_envelope": {
+        "fuel_ratio": [
+          1.1574238625692355,
+          1.165482822235125
+        ],
+        "activity_ratio": [
+          1.1940383257085083,
+          1.1940585832006096
+        ],
+        "intensity_ratio": [
+          0.969335604770017,
+          0.976068376068376
+        ],
+        "change_10kt": [
+          500.4275499999994,
+          524.2486500000009
+        ],
+        "activity_effect_10kt": [
+          606.0244338895936,
+          608.1840169725524
+        ],
+        "intensity_effect_10kt": [
+          -106.60683478973517,
+          -82.92420506839038
+        ]
+      }
+    },
+    {
+      "fuel_start_10kt": 3685.7625,
+      "fuel_end_10kt": 1809.8255999999997,
+      "change_10kt": -1875.9369000000002,
+      "activity_effect_10kt": -2028.7498273514063,
+      "intensity_effect_10kt": 152.81292735140642,
+      "residual_10kt": -2.2737367544323206e-13,
+      "start": 2019,
+      "end": 2022,
+      "activity_ratio": 0.4633906823893292,
+      "intensity_ratio": 1.0596491228070175,
+      "fuel_ratio": 0.4910315301107979,
+      "activity_cagr": -0.2261636986678972,
+      "intensity_cagr": 0.019500307212472423,
+      "fuel_cagr": -0.2110736530597579,
+      "chain_activity_effect_10kt": -2084.345433152852,
+      "chain_intensity_effect_10kt": 208.4085331528521,
+      "intensity_offset_of_activity_percent": null,
+      "endpoint_rounding_corner_envelope": {
+        "fuel_ratio": [
+          0.4893540627651398,
+          0.49271491358426106
+        ],
+        "activity_ratio": [
+          0.46338502460844916,
+          0.4633963402139579
+        ],
+        "intensity_ratio": [
+          1.0560420315236427,
+          1.063268892794376
+        ],
+        "change_10kt": [
+          -1885.4289000000003,
+          -1866.4448999999997
+        ],
+        "activity_effect_10kt": [
+          -2032.249803193231,
+          -2025.249948262606
+        ],
+        "intensity_effect_10kt": [
+          143.8542859980534,
+          161.76777468367234
+        ]
+      }
+    },
+    {
+      "fuel_start_10kt": 1809.8255999999997,
+      "fuel_end_10kt": 4266.158,
+      "change_10kt": 2456.3324000000007,
+      "activity_effect_10kt": 2885.290608638879,
+      "intensity_effect_10kt": -428.9582086388788,
+      "residual_10kt": 5.684341886080801e-13,
+      "start": 2022,
+      "end": 2025,
+      "activity_ratio": 2.7380022693899346,
+      "intensity_ratio": 0.8609271523178809,
+      "fuel_ratio": 2.3572204968257715,
+      "activity_cagr": 0.3989792337084155,
+      "intensity_cagr": -0.048689840077653423,
+      "fuel_cagr": 0.3308631585471946,
+      "chain_activity_effect_10kt": 2993.1176362427273,
+      "chain_intensity_effect_10kt": -536.7852362427269,
+      "intensity_offset_of_activity_percent": 17.9339839417924,
+      "endpoint_rounding_corner_envelope": {
+        "fuel_ratio": [
+          2.3487718870496983,
+          2.365697232414541
+        ],
+        "activity_ratio": [
+          2.7379710822062955,
+          2.7380334570939886
+        ],
+        "intensity_ratio": [
+          0.8578512396694216,
+          0.8640132669983417
+        ],
+        "change_10kt": [
+          2445.10375,
+          2467.5610500000003
+        ],
+        "activity_effect_10kt": [
+          2880.0460524998134,
+          2890.535230961151
+        ],
+        "intensity_effect_10kt": [
+          -439.04327108968926,
+          -418.8671702850443
+        ]
+      }
+    },
+    {
+      "fuel_start_10kt": 3173.4243999999994,
+      "fuel_end_10kt": 4266.158,
+      "change_10kt": 1092.733600000001,
+      "activity_effect_10kt": 1534.0000679741042,
+      "intensity_effect_10kt": -441.2664679741039,
+      "residual_10kt": 5.684341886080801e-13,
+      "start": 2017,
+      "end": 2025,
+      "activity_ratio": 1.5149665767994978,
+      "intensity_ratio": 0.8873720136518772,
+      "fuel_ratio": 1.3443389418698617,
+      "activity_cagr": 0.053295870323807115,
+      "intensity_cagr": -0.014825377946761309,
+      "fuel_cagr": 0.03768036095649374,
+      "chain_activity_effect_10kt": 1514.7059802994488,
+      "chain_intensity_effect_10kt": -421.9723802994479,
+      "intensity_offset_of_activity_percent": 27.858368936790384,
+      "endpoint_rounding_corner_envelope": {
+        "fuel_ratio": [
+          1.339457628050117,
+          1.34923698373044
+        ],
+        "activity_ratio": [
+          1.5149549666000357,
+          1.5149781871061563
+        ],
+        "intensity_ratio": [
+          0.8841567291311756,
+          0.8905982905982907
+        ],
+        "change_10kt": [
+          1079.0864000000001,
+          1106.3808000000008
+        ],
+        "activity_effect_10kt": [
+          1531.180670214304,
+          1536.8195538707325
+        ],
+        "intensity_effect_10kt": [
+          -454.58284192631646,
+          -427.94683228346423
+        ]
+      }
+    },
+    {
+      "fuel_start_10kt": 3685.7625,
+      "fuel_end_10kt": 4266.158,
+      "change_10kt": 580.3955000000005,
+      "activity_effect_10kt": 944.7695517944943,
+      "intensity_effect_10kt": -364.37405179449433,
+      "residual_10kt": 5.684341886080801e-13,
+      "start": 2019,
+      "end": 2025,
+      "activity_ratio": 1.2687647399961337,
+      "intensity_ratio": 0.912280701754386,
+      "fuel_ratio": 1.157469587364894,
+      "activity_cagr": 0.04047148728513439,
+      "intensity_cagr": -0.015184788757211298,
+      "fuel_cagr": 0.02467214754280822,
+      "chain_activity_effect_10kt": 908.7722030898755,
+      "chain_intensity_effect_10kt": -328.3767030898748,
+      "intensity_offset_of_activity_percent": 36.1341051116414,
+      "endpoint_rounding_corner_envelope": {
+        "fuel_ratio": [
+          1.1532125177486114,
+          1.1617416512125083
+        ],
+        "activity_ratio": [
+          1.268755968467162,
+          1.268773511592931
+        ],
+        "intensity_ratio": [
+          0.9089316987740806,
+          0.9156414762741654
+        ],
+        "change_10kt": [
+          565.69785,
+          595.0931500000006
+        ],
+        "activity_effect_10kt": [
+          943.003349127082,
+          946.5358500497151
+        ],
+        "intensity_effect_10kt": [
+          -378.9226818304956,
+          -349.8233935187513
+        ]
+      }
+    },
+    {
+      "fuel_start_10kt": 2503.8509999999997,
+      "fuel_end_10kt": 3685.7625,
+      "change_10kt": 1181.9115000000002,
+      "activity_effect_10kt": 1276.9498088925109,
+      "intensity_effect_10kt": -95.03830889251084,
+      "residual_10kt": 1.2789769243681803e-13,
+      "start": 2015,
+      "end": 2019,
+      "activity_ratio": 1.5185228673750955,
+      "intensity_ratio": 0.9693877551020408,
+      "fuel_ratio": 1.472037473475858,
+      "activity_cagr": 0.11008269899075174,
+      "intensity_cagr": -0.0077425178596095545,
+      "fuel_cagr": 0.10148786386817221,
+      "chain_activity_effect_10kt": 1284.56636050734,
+      "chain_intensity_effect_10kt": -102.65486050733985,
+      "intensity_offset_of_activity_percent": 7.991401897430684,
+      "endpoint_rounding_corner_envelope": {
+        "fuel_ratio": [
+          1.4669458374759963,
+          1.477146508016158
+        ],
+        "activity_ratio": [
+          1.5185080813240102,
+          1.5185376535997983
+        ],
+        "intensity_ratio": [
+          0.966044142614601,
+          0.9727427597955707
+        ],
+        "change_10kt": [
+          1171.15805,
+          1192.6649500000003
+        ],
+        "activity_effect_10kt": [
+          1274.7127968361017,
+          1279.1869203430701
+        ],
+        "intensity_effect_10kt": [
+          -105.5859565998195,
+          -84.48822835781164
+        ]
+      }
+    },
+    {
+      "fuel_start_10kt": 2503.8509999999997,
+      "fuel_end_10kt": 4266.158,
+      "change_10kt": 1762.3070000000007,
+      "activity_effect_10kt": 2168.7451064320685,
+      "intensity_effect_10kt": -406.4381064320689,
+      "residual_10kt": 1.0800249583553523e-12,
+      "start": 2015,
+      "end": 2025,
+      "activity_ratio": 1.9266482710033463,
+      "intensity_ratio": 0.8843537414965987,
+      "fuel_ratio": 1.7038386070097622,
+      "activity_cagr": 0.06777621771165987,
+      "intensity_cagr": -0.01221460229913962,
+      "fuel_cagr": 0.05473375586783247,
+      "chain_activity_effect_10kt": 2193.3385635972154,
+      "chain_intensity_effect_10kt": -431.03156359721464,
+      "intensity_offset_of_activity_percent": 19.651848134667148,
+      "endpoint_rounding_corner_envelope": {
+        "fuel_ratio": [
+          1.6976596521709022,
+          1.7100386732268809
+        ],
+        "activity_ratio": [
+          1.9266310888798868,
+          1.9266654533285583
+        ],
+        "intensity_ratio": [
+          0.8811544991511037,
+          0.8875638841567293
+        ],
+        "change_10kt": [
+          1749.8169000000007,
+          1774.7971000000002
+        ],
+        "activity_effect_10kt": [
+          2164.7670406058946,
+          2172.723254581532
+        ],
+        "intensity_effect_10kt": [
+          -418.3114426842566,
+          -394.56014958030426
+        ]
+      }
+    }
+  ],
+  "main_analysis_period": [
+    2017,
+    2025
+  ],
+  "statistical_break_note": "The 2017 bulletin states that production-data processing and audit rules changed. Main period begins in 2017; 2015 onward is an extended record, not assumed harmonized across the break.",
+  "rounding_note": "16 endpoint corners from Q +/-0.005 and I +/-0.0005; no statistical CI.",
+  "inferred_fuel_note": "Derived from official rounded Q and I, not separately observed fuel consumption."
+}

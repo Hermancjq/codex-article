@@ -1,0 +1,27 @@
+{
+  "status": "english_research_draft_and_replication_completed",
+  "workflow_stage": "draft_completed_author_review_pending",
+  "source_audit": "completed",
+  "verified_official_paired_years": 11,
+  "paired_period": [
+    2015,
+    2025
+  ],
+  "main_period": [
+    2017,
+    2025
+  ],
+  "manuscript_references": 20,
+  "empirical_accounting": "executed",
+  "conditional_scenarios": "executed_explicit_assumption_domain",
+  "forecasting": "executed_diagnostic_only_2_tests_extended_0_tests_main",
+  "figures": 3,
+  "offline_mathematical_checks": 18,
+  "network": "unrestricted_access_verified",
+  "external_journal_submission": "not_performed",
+  "public_repository_publication": "not_performed",
+  "human_author_attestation": "pending",
+  "original_attachment_preserved": true,
+  "fresh_extraction_offline_reproduction": "passed",
+  "numerical_outputs_reproduced_identically": true
+}

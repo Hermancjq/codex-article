@@ -1,0 +1,18 @@
+{
+  "horizon": 15,
+  "ranges": {
+    "g": [0.01980262729617973, 0.058268908123975824],
+    "b": [0.0, 0.020202707317519466],
+    "theta": [0.10, 0.30],
+    "r": [0.02, 0.12]
+  },
+  "tau_values": [0, 3, 8],
+  "target_fuel_ratio": 1.0,
+  "sobol_power": 12,
+  "seed": 20261016,
+  "check_convergence": true,
+  "assumption_status": "Analyst-defined stress-test domain, not empirical calibration or a probability distribution",
+  "rate_explanation": "g corresponds to ordinary annual activity growth 2–6%; b to ordinary baseline intensity improvement 0–2%. theta is additional realized advantage relative to the improving baseline, not an engine-only gain. r is fuel-use-weighted adoption of the additional advantage. tau is an assumed delay in years.",
+  "horizon_explanation": "2025 observed baseline to 2040; target holds reconstructed fuel use at the baseline level, not a claim about an official policy target or climate neutrality.",
+  "parameter_rationale": "Activity and baseline-rate ranges are transparent exploratory choices; observed historical rates will be reported alongside them without treating disruption/recovery changes as technology trends. Literature motivates deployment uncertainty but does not calibrate these China-specific bounds. Technology, adoption and delays are explicitly hypothetical. No financial optimum or real-world target probability is estimated."
+}

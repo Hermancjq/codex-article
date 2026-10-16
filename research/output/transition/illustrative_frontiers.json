@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "horizon": 15,
+      "activity_growth_ordinary": 0.02,
+      "baseline_improvement_ordinary": 0.01,
+      "theta": 0.2,
+      "tau": 0,
+      "frontier": {
+        "horizon": 15,
+        "target_fuel_ratio": 1,
+        "baseline_fuel_ratio": 1.157525308622856,
+        "required_share": 0.6804400191053656,
+        "required_r": 0.07323385802975522,
+        "analysis_type": "conditional_analytic_frontier",
+        "status": "deployment_threshold_exists"
+      }
+    },
+    {
+      "horizon": 15,
+      "activity_growth_ordinary": 0.02,
+      "baseline_improvement_ordinary": 0.01,
+      "theta": 0.2,
+      "tau": 3,
+      "frontier": {
+        "horizon": 15,
+        "target_fuel_ratio": 1,
+        "baseline_fuel_ratio": 1.157525308622856,
+        "required_share": 0.6804400191053656,
+        "required_r": 0.09068846804420752,
+        "analysis_type": "conditional_analytic_frontier",
+        "status": "deployment_threshold_exists"
+      }
+    },
+    {
+      "horizon": 15,
+      "activity_growth_ordinary": 0.02,
+      "baseline_improvement_ordinary": 0.01,
+      "theta": 0.2,
+      "tau": 8,
+      "frontier": {
+        "horizon": 15,
+        "target_fuel_ratio": 1,
+        "baseline_fuel_ratio": 1.157525308622856,
+        "required_share": 0.6804400191053656,
+        "required_r": 0.15038578603590383,
+        "analysis_type": "conditional_analytic_frontier",
+        "status": "deployment_threshold_exists"
+      }
+    }
+  ],
+  "medium_growth_case": {
+    "g": 0.03922071315328133,
+    "b": 0.01005033585350145,
+    "theta": 0.3,
+    "r": 1,
+    "tau": 0
+  },
+  "medium_growth_theta_min": 0.3543874090440484,
+  "medium_growth_full_adoption_R": 1.0842415557037348
+}

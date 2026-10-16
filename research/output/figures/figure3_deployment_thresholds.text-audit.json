@@ -1,0 +1,10 @@
+{
+  "pdf": "/workspace/research/output/figures/figure3_deployment_thresholds.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.0,
+  "minimum_found_pt": 7.0,
+  "text_run_count": 11,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

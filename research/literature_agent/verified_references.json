@@ -1,0 +1,1412 @@
+{
+  "retrieval_date_user_timezone": "2026-10-16 Asia/Shanghai",
+  "search_coverage": "Targeted, non-systematic search. 13 sources checked against Crossref and official publisher metadata/abstracts; 11 dated 2023–2026 and 2 older foundational sources. Latest included official publication: 2026-06-16. No claim of exhaustive latest coverage.",
+  "records": [
+    {
+      "number": 1,
+      "id": "bergero2023",
+      "priority": "Core",
+      "reference": "Bergero, C.; Gosnell, G.; Gielen, D.; Kang, S.; Bazilian, M.; Davis, S. J. (2023). Pathways to net-zero emissions from aviation. Nature Sustainability, 6(4), 404–414. https://doi.org/10.1038/s41893-022-01046-9",
+      "title": "Pathways to net-zero emissions from aviation",
+      "authors": [
+        {
+          "given": "Candelaria",
+          "family": "Bergero",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Greer",
+          "family": "Gosnell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dolf",
+          "family": "Gielen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Seungwoo",
+          "family": "Kang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Morgan",
+          "family": "Bazilian",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9338-0844",
+          "authenticated-orcid": false,
+          "given": "Steven J.",
+          "family": "Davis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2023,
+      "journal": "Nature Sustainability",
+      "volume": "6",
+      "issue": "4",
+      "page_or_article_number": "404–414",
+      "doi": "10.1038/s41893-022-01046-9",
+      "url": "https://doi.org/10.1038/s41893-022-01046-9",
+      "crossref_file": "/workspace/research/literature_agent/raw/bergero2023_crossref.json",
+      "publisher_file": "/workspace/research/literature_agent/raw/bergero2023_publisher.html",
+      "title_matches_publisher": true,
+      "publisher_doi": [
+        "10.1038/s41893-022-01046-9"
+      ],
+      "publisher_author_strings": [
+        "Bergero, Candelaria",
+        "Gosnell, Greer",
+        "Gielen, Dolf",
+        "Kang, Seungwoo",
+        "Bazilian, Morgan",
+        "Davis, Steven J."
+      ],
+      "access_and_reading_level": "Abstract read; publisher full text paywalled.",
+      "publisher_abstract": "AbstractInternational climate goals imply reaching net-zero global carbon dioxide (CO2) emissions by roughly mid-century (and net-zero greenhouse gas emissions by the end of the century). Among the most difficult emissions to avoid will be those from aviation given the industry’s need for energy-dense liquid fuels that lack commercially competitive substitutes and the difficult-to-abate non-CO2 radiative forcing. Here we systematically assess pathways to net-zero emissions aviation. We find that ambitious reductions in demand for air transport and improvements in the energy efficiency of aircraft might avoid up to 61% (2.8 GtCO2 equivalent (GtCO2eq)) and 27% (1.2 GtCO2eq), respectively, of projected business-as-usual aviation emissions in 2050. However, further reductions will depend on replacing fossil jet fuel with large quantities of net-zero emissions biofuels or synthetic fuels (that is, 2.5–19.8 EJ of sustainable aviation fuels)—which may be substantially more expensive. Moreover, up to 3.4 GtCO2eq may need to be removed from the atmosphere to compensate for non-CO2 forcing for the sector to achieve net-zero radiative forcing. Our results may inform investments and priorities for innovation by highlighting plausible pathways to net-zero emissions aviation, including the relative potential and trade-offs of changes in behaviour, technology, energy sources and carbon equivalent removals.",
+      "evidence_quote": "ambitious reductions in demand for air transport and improvements in the energy efficiency of aircraft",
+      "supported_claim": "Global pathways combine demand, efficiency, fuel substitution and removals; their relative potential depends on assumptions.",
+      "boundary": "Do not transfer global scenario percentages to China or describe them as observed effects.",
+      "crossref_update_to": null,
+      "crossref_relation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.21203/rs.3.rs-1871023/v1",
+            "asserted-by": "object"
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "id": "sacchi2023",
+      "priority": "Core",
+      "reference": "Sacchi, R.; Becattini, V.; Gabrielli, P.; Cox, B.; Dirnaichner, A.; Bauer, C.; Mazzotti, M. (2023). How to make climate-neutral aviation fly. Nature Communications, 14(1), 3989. https://doi.org/10.1038/s41467-023-39749-y",
+      "title": "How to make climate-neutral aviation fly",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1440-0905",
+          "authenticated-orcid": false,
+          "given": "Romain",
+          "family": "Sacchi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Viola",
+          "family": "Becattini",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3061-4735",
+          "authenticated-orcid": false,
+          "given": "Paolo",
+          "family": "Gabrielli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brian",
+          "family": "Cox",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alois",
+          "family": "Dirnaichner",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1083-9200",
+          "authenticated-orcid": false,
+          "given": "Christian",
+          "family": "Bauer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marco",
+          "family": "Mazzotti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2023,
+      "journal": "Nature Communications",
+      "volume": "14",
+      "issue": "1",
+      "page_or_article_number": "3989",
+      "doi": "10.1038/s41467-023-39749-y",
+      "url": "https://doi.org/10.1038/s41467-023-39749-y",
+      "crossref_file": "/workspace/research/literature_agent/raw/sacchi2023_crossref.json",
+      "publisher_file": "/workspace/research/literature_agent/raw/sacchi2023_publisher.html",
+      "title_matches_publisher": true,
+      "publisher_doi": [
+        "10.1038/s41467-023-39749-y"
+      ],
+      "publisher_author_strings": [
+        "Sacchi, Romain",
+        "Becattini, Viola",
+        "Gabrielli, Paolo",
+        "Cox, Brian",
+        "Dirnaichner, Alois",
+        "Bauer, Christian",
+        "Mazzotti, Marco"
+      ],
+      "access_and_reading_level": "Abstract and selected open full-text introduction/methods/results paragraphs read.",
+      "publisher_abstract": "AbstractThe European aviation sector must substantially reduce climate impacts to reach net-zero goals. This reduction, however, must not be limited to flight CO2 emissions since such a narrow focus leaves up to 80% of climate impacts unaccounted for. Based on rigorous life-cycle assessment and a time-dependent quantification of non-CO2 climate impacts, here we show that, from a technological standpoint, using electricity-based synthetic jet fuels and compensating climate impacts via direct air carbon capture and storage (DACCS) can enable climate-neutral aviation. However, with a continuous increase in air traffic, synthetic jet fuel produced with electricity from renewables would exert excessive pressure on economic and natural resources. Alternatively, compensating climate impacts of fossil jet fuel via DACCS would require massive CO2 storage volumes and prolong dependence on fossil fuels. Here, we demonstrate that a European climate-neutral aviation will fly if air traffic is reduced to limit the scale of the climate impacts to mitigate.",
+      "evidence_quote": "with a continuous increase in air traffic, synthetic jet fuel produced with electricity from renewables would exert excessive pressure",
+      "supported_claim": "European aviation LCA highlights resource constraints and different CO2/non-CO2 neutrality definitions.",
+      "boundary": "European modeling, not a Chinese empirical estimate; its large non-CO2 share is scenario/scope specific.",
+      "crossref_update_to": null,
+      "crossref_relation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.21203/rs.3.rs-2185970/v1",
+            "asserted-by": "object"
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "id": "scaleup2025",
+      "priority": "Core",
+      "reference": "Martulli, A.; Brandt, K.; Allroggen, F.; Malina, R. (2025). The potential scale-up of sustainable aviation fuels production capacity to meet global and EU policy targets. Nature Communications, 16(1), 11619. https://doi.org/10.1038/s41467-025-66686-9",
+      "title": "The potential scale-up of sustainable aviation fuels production capacity to meet global and EU policy targets",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2418-0232",
+          "authenticated-orcid": false,
+          "given": "Alessandro",
+          "family": "Martulli",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6113-7332",
+          "authenticated-orcid": false,
+          "given": "Kristin",
+          "family": "Brandt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0712-2310",
+          "authenticated-orcid": false,
+          "given": "Florian",
+          "family": "Allroggen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1886-286X",
+          "authenticated-orcid": false,
+          "given": "Robert",
+          "family": "Malina",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2025,
+      "journal": "Nature Communications",
+      "volume": "16",
+      "issue": "1",
+      "page_or_article_number": "11619",
+      "doi": "10.1038/s41467-025-66686-9",
+      "url": "https://doi.org/10.1038/s41467-025-66686-9",
+      "crossref_file": "/workspace/research/literature_agent/raw/scaleup2025_crossref.json",
+      "publisher_file": "/workspace/research/literature_agent/raw/scaleup2025_publisher.html",
+      "title_matches_publisher": true,
+      "publisher_doi": [
+        "10.1038/s41467-025-66686-9"
+      ],
+      "publisher_author_strings": [
+        "Martulli, Alessandro",
+        "Brandt, Kristin",
+        "Allroggen, Florian",
+        "Malina, Robert"
+      ],
+      "access_and_reading_level": "Abstract and selected open full-text introduction/methods/results paragraphs read.",
+      "publisher_abstract": "AbstractSustainable aviation fuels (SAF) can reduce aviation greenhouse gas emissions, yet their production scale-up to meet policy goals remains unexplored. Here, we describe the Global SAF Capacity Database to quantify global and European Union (EU) SAF capacity, comparing it to production capacity announcements. Despite announcements of 9.1 Mt year−1 (2.2 Mt year−1 in the EU) by 2024 and 38.9 Mt year−1 (9.3 Mt year−1 in the EU) by 2030, only 24% (26% in the EU) of the announced capacity was realized on time by 2024. Over 40% of the announced capacity for 2030 risks delays or cancellations. Using a diffusion model parametrized by announced capacity, realization rates, expected demand, and historical growth analogs, we calculate SAF potential scale-up to meet net-zero carbon emissions by 2050. Even if SAF follows the rapid scale-up of solar and wind energy, the global and EU capacity will fall short of respective targets by 42% and 18% in 2030, and 7% and 5% in 2050.",
+      "evidence_quote": "only 24% (26% in the EU) of the announced capacity was realized on time by 2024",
+      "supported_claim": "SAF project announcements need deployment-realization and delay analysis; stochastic diffusion is an evidenced modeling approach.",
+      "boundary": "Production capacity is not actual fuel output or uptake. Global/EU realization rates are not estimated China parameters.",
+      "crossref_update_to": null,
+      "crossref_relation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.21203/rs.3.rs-6924877/v1",
+            "asserted-by": "object"
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "id": "contrails2024",
+      "priority": "Core",
+      "reference": "Teoh, R.; Engberg, Z.; Schumann, U.; Voigt, C.; Shapiro, M.; Rohs, S.; Stettler, M. E. J. (2024). Global aviation contrail climate effects from 2019 to 2021. Atmospheric Chemistry and Physics, 24(10), 6071–6093. https://doi.org/10.5194/acp-24-6071-2024",
+      "title": "Global aviation contrail climate effects from 2019 to 2021",
+      "authors": [
+        {
+          "given": "Roger",
+          "family": "Teoh",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zebediah",
+          "family": "Engberg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5255-6869",
+          "authenticated-orcid": false,
+          "given": "Ulrich",
+          "family": "Schumann",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8925-7731",
+          "authenticated-orcid": false,
+          "given": "Christiane",
+          "family": "Voigt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0864-6394",
+          "authenticated-orcid": false,
+          "given": "Marc",
+          "family": "Shapiro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5473-2934",
+          "authenticated-orcid": false,
+          "given": "Susanne",
+          "family": "Rohs",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2066-9380",
+          "authenticated-orcid": false,
+          "given": "Marc E. J.",
+          "family": "Stettler",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/041kmwe10",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Imperial College London (London, United Kingdom)"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            },
+            {
+              "role": "corresponding-author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": 2024,
+      "journal": "Atmospheric Chemistry and Physics",
+      "volume": "24",
+      "issue": "10",
+      "page_or_article_number": "6071–6093",
+      "doi": "10.5194/acp-24-6071-2024",
+      "url": "https://doi.org/10.5194/acp-24-6071-2024",
+      "crossref_file": "/workspace/research/literature_agent/raw/contrails2024_crossref.json",
+      "publisher_file": "/workspace/research/literature_agent/raw/contrails2024_publisher.html",
+      "title_matches_publisher": true,
+      "publisher_doi": [
+        "https://doi.org/10.5194/acp-24-6071-2024"
+      ],
+      "publisher_author_strings": [
+        "Teoh, Roger",
+        "Engberg, Zebediah",
+        "Schumann, Ulrich",
+        "Voigt, Christiane",
+        "Shapiro, Marc",
+        "Rohs, Susanne",
+        "Stettler, Marc E. J."
+      ],
+      "access_and_reading_level": "Abstract and selected open full-text methods/discussion paragraphs read.",
+      "publisher_abstract": "",
+      "evidence_quote": "only 2 % of all flights caused 80 % of the annual contrail energy forcing",
+      "supported_claim": "Non-CO2 aviation impacts are spatially heterogeneous and sensitive to meteorology and engine particle emissions.",
+      "boundary": "Do not use global/region RF numbers as CO2 inventory multipliers or infer Chinese operational CO2 from them.",
+      "crossref_update_to": null,
+      "crossref_relation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859",
+            "asserted-by": "object"
+          }
+        ],
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-CC1",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-AC1",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-CC2",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-AC1",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-CC3",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-AC1",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-CC4",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-AC1",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-RC1",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-AC1",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-EC1",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-AC1",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-EC1",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-CC1",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-CC3",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-RC1",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-CC2",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-CC4",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5194/egusphere-2023-1859-AC1",
+            "asserted-by": "object"
+          }
+        ],
+        "is-part-of": [
+          {
+            "id-type": "doi",
+            "id": "10.5281/zenodo.8369829",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5281/zenodo.8369925",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.25326/06",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.5281/zenodo.7776686",
+            "asserted-by": "subject"
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "id": "china_routes2023",
+      "priority": "Core",
+      "reference": "Cui, Q.; Lei, Y. L. (2023). Pathways analysis to reducing aircraft emissions for China-Foreign routes. npj Climate Action, 2(1), 15. https://doi.org/10.1038/s44168-023-00047-4",
+      "title": "Pathways analysis to reducing aircraft emissions for China-Foreign routes",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3013-5769",
+          "authenticated-orcid": false,
+          "given": "Qiang",
+          "family": "Cui",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yi-lin",
+          "family": "Lei",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2023,
+      "journal": "npj Climate Action",
+      "volume": "2",
+      "issue": "1",
+      "page_or_article_number": "15",
+      "doi": "10.1038/s44168-023-00047-4",
+      "url": "https://doi.org/10.1038/s44168-023-00047-4",
+      "crossref_file": "/workspace/research/literature_agent/raw/china_routes2023_crossref.json",
+      "publisher_file": "/workspace/research/literature_agent/raw/china_routes2023_publisher.html",
+      "title_matches_publisher": true,
+      "publisher_doi": [
+        "10.1038/s44168-023-00047-4"
+      ],
+      "publisher_author_strings": [
+        "Cui, Qiang",
+        "Lei, Yi-lin"
+      ],
+      "access_and_reading_level": "Abstract and selected open full-text methods paragraphs read.",
+      "publisher_abstract": "AbstractThe rapid development of the aviation industry significantly impacts global climate change. The carbon Emissions Trading Scheme (ETS) and Sustainable Aviation Fuels (SAFs) are considered two essential ways for the aviation industry to reduce emissions. This paper uses China-foreign routes, the fastest growing region in the world, as an example to calculate the actual emissions (CO2, CO, HC, NOx, SO2, and PM2.5), calculate the Carbon Dioxide Equivalent Concentration (CDEC) using the Aviation FAIR-GWP concentration method, to compare the role of the ETS and SAFs in controlling emissions until the year 2100. The results show that SAFs are more effective in controlling the pollutant emissions of the aircraft than ETS, as ETS mainly covers CO2 and ignores other greenhouse gases. However, the best way is to combine SAFs and ETS; the combined effect is much better than SAFs alone or ETS alone. The research results provide systematic suggestions for the aviation industry to reduce emissions effectively.",
+      "evidence_quote": "the best way is to combine SAFs and ETS",
+      "supported_claim": "China-foreign-route scenario evidence models complementary fuel and market instruments.",
+      "boundary": "Routes and modeled atmospheric impacts differ from the national CAAC operator-based fuel/turnover boundary.",
+      "crossref_update_to": null,
+      "crossref_relation": {}
+    },
+    {
+      "number": 6,
+      "id": "china_plos2023",
+      "priority": "Essential prior art",
+      "reference": "Liu, X.; Zhang, Y. (2023). What drives the decoupling progress of China’s civil aviation transportation growth from carbon emissions? A new decomposition analysis. PLOS ONE, 18(3), e0282025. https://doi.org/10.1371/journal.pone.0282025",
+      "title": "What drives the decoupling progress of China’s civil aviation transportation growth from carbon emissions? A new decomposition analysis",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9085-8136",
+          "authenticated-orcid": true,
+          "given": "Xiao",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yancai",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": 2023,
+      "journal": "PLOS ONE",
+      "volume": "18",
+      "issue": "3",
+      "page_or_article_number": "e0282025",
+      "doi": "10.1371/journal.pone.0282025",
+      "url": "https://doi.org/10.1371/journal.pone.0282025",
+      "crossref_file": "/workspace/research/literature_agent/raw/china_plos2023_crossref.json",
+      "publisher_file": "/workspace/research/literature_agent/raw/china_plos2023_publisher.html",
+      "title_matches_publisher": true,
+      "publisher_doi": [
+        "10.1371/journal.pone.0282025"
+      ],
+      "publisher_author_strings": [
+        "Xiao Liu",
+        "Yancai Zhang"
+      ],
+      "access_and_reading_level": "Abstract and open full-text data scope/conclusions read.",
+      "publisher_abstract": "",
+      "evidence_quote": "the relationship between carbon emissions and transport turnover is dominated by the expansive coupling",
+      "supported_claim": "China aviation decoupling and decomposition already studied using 1996–2015 commercial passenger/freight data.",
+      "boundary": "Updating years alone is not sufficient novelty; do not claim the first China decoupling/decomposition study or equate accounting with causality.",
+      "crossref_update_to": null,
+      "crossref_relation": {}
+    },
+    {
+      "number": 7,
+      "id": "policy_npj2025",
+      "priority": "Core",
+      "reference": "Suomalainen, E. (2025). Growth over climate or aviation climate policy in the Avoid–Shift–Improve framework. npj Climate Action, 4(1), 54. https://doi.org/10.1038/s44168-025-00261-2",
+      "title": "Growth over climate or aviation climate policy in the Avoid–Shift–Improve framework",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6339-2932",
+          "authenticated-orcid": false,
+          "given": "Emilia",
+          "family": "Suomalainen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2025,
+      "journal": "npj Climate Action",
+      "volume": "4",
+      "issue": "1",
+      "page_or_article_number": "54",
+      "doi": "10.1038/s44168-025-00261-2",
+      "url": "https://doi.org/10.1038/s44168-025-00261-2",
+      "crossref_file": "/workspace/research/literature_agent/raw/policy_npj2025_crossref.json",
+      "publisher_file": "/workspace/research/literature_agent/raw/policy_npj2025_publisher.html",
+      "title_matches_publisher": true,
+      "publisher_doi": [
+        "10.1038/s44168-025-00261-2"
+      ],
+      "publisher_author_strings": [
+        "Suomalainen, Emilia"
+      ],
+      "access_and_reading_level": "Abstract and selected open full-text framework/methods paragraphs read.",
+      "publisher_abstract": "AbstractAviation is one of the most challenging sectors in terms of its decarbonisation. While the difficulties are well-known, there is still a prominent climate-neutral growth narrative promising that Paris-aligned climate goals can be attained without jeopardising growth. To what extent is this narrative still credible in key aviation strategy documents? Notably, are the limitations of technological solutions to mitigating aviation emissions recognised? Are the possibilities of modal shift and/or demand management explored, hinting at a need to reduce air travel? In this work, these questions are examined for the European Union and Finland through the Avoid–Shift–Improve framework. Though the limitations of technological reality are starting to undermine the climate-neutral growth narrative, the need for out-of-sector measures to bridge the gap is not addressed. The current focus on (future) technological solutions does, however, mean that the climate impact of aviation is likely to continue unabated in the near term.",
+      "evidence_quote": "the current focus on (future) technological solutions",
+      "supported_claim": "Avoid–Shift–Improve content analysis questions technology-centered climate-neutral-growth narratives.",
+      "boundary": "Qualitative document analysis of EU/Finland; it is not a Chinese causal demand estimate.",
+      "crossref_update_to": null,
+      "crossref_relation": {}
+    },
+    {
+      "number": 8,
+      "id": "dutch2024",
+      "priority": "Journal-specific comparator",
+      "reference": "Davydenko, I.; Hilbers, H. (2024). Decarbonization Paths for the Dutch Aviation Sector. Sustainability, 16(3), 950. https://doi.org/10.3390/su16030950",
+      "title": "Decarbonization Paths for the Dutch Aviation Sector",
+      "authors": [
+        {
+          "given": "Igor",
+          "family": "Davydenko",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "PBL Netherlands Environmental Assessment Agency, 2594 AV The Hague, The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hans",
+          "family": "Hilbers",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "PBL Netherlands Environmental Assessment Agency, 2594 AV The Hague, The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2024,
+      "journal": "Sustainability",
+      "volume": "16",
+      "issue": "3",
+      "page_or_article_number": "950",
+      "doi": "10.3390/su16030950",
+      "url": "https://doi.org/10.3390/su16030950",
+      "crossref_file": "/workspace/research/literature_agent/raw/dutch2024_crossref.json",
+      "publisher_file": "/workspace/research/literature_agent/raw/dutch2024_publisher.html",
+      "title_matches_publisher": true,
+      "publisher_doi": [
+        "10.3390/su16030950"
+      ],
+      "publisher_author_strings": [
+        "Davydenko, Igor",
+        "Hilbers, Hans"
+      ],
+      "access_and_reading_level": "Abstract and selected open full-text methods/conclusions read.",
+      "publisher_abstract": "Abstract To reduce aviation’s climatic impact, there are international, regional and national policies in place and under development. The most firm policy measure to reduce net CO2 emissions from aviation is ReFuelEU Aviation, requiring 70% of fuel tanked in the EU to be net CO2-free in 2050. Considering the technological options available, expected improvements in airline operational efficiency and aircraft efficiency, as well as considering behavioral factors that influence aviation travel demand, a path for the complete decarbonization of the Dutch aviation market is provided. The path implies increasing the share of CO2-free energy carriers to 100% in 2050 for all departing and arriving flights. Methodologically, first, the aggregate ticket price increase as a result of this policy is estimated. Second, demand price elasticity factors are applied to the price increase to estimate the impact of complete decarbonization on the number of passengers carried by the Dutch aviation sector in 2050. The findings outline that a shift to exclusively CO2-free energy carriers will result in a 15% reduction in the number of passengers in 2050 compared to the market development under ReFuelEU Aviation obligations. The Dutch aviation sector will still grow from 81 million passengers in 2019 to between 98 and 138 million in 2050, but the growth rate will be significantly lower than before 2019. The expected sustainable energy requirements will be 171 PJ per year in 2050, with a likely range between 146 and 206 PJ, representing no substantial change from the 2019 level of 166 PJ.",
+      "evidence_quote": "the growth rate will be significantly lower than before 2019",
+      "supported_claim": "Sustainability has published aviation scenarios combining fuel transition, operational efficiency, ticket prices and demand elasticity.",
+      "boundary": "Dutch assumptions and elasticity values are not automatically valid in China; policy-neutrality wording in that paper does not remove LCA requirements.",
+      "crossref_update_to": null,
+      "crossref_relation": {}
+    },
+    {
+      "number": 9,
+      "id": "climatepolicy2026",
+      "priority": "Recent economic context",
+      "reference": "Proost, S. (2026). What role for aviation in climate policy? Journal of Shipping and Trade, 11(1), 14. https://doi.org/10.1186/s41072-026-00230-w",
+      "title": "What role for aviation in climate policy?",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3731-4532",
+          "authenticated-orcid": false,
+          "given": "Stef",
+          "family": "Proost",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2026,
+      "journal": "Journal of Shipping and Trade",
+      "volume": "11",
+      "issue": "1",
+      "page_or_article_number": "14",
+      "doi": "10.1186/s41072-026-00230-w",
+      "url": "https://doi.org/10.1186/s41072-026-00230-w",
+      "crossref_file": "/workspace/research/literature_agent/raw/climatepolicy2026_crossref.json",
+      "publisher_file": "/workspace/research/literature_agent/raw/climatepolicy2026_publisher.html",
+      "title_matches_publisher": true,
+      "publisher_doi": [
+        "10.1186/s41072-026-00230-w"
+      ],
+      "publisher_author_strings": [
+        "Proost, Stef"
+      ],
+      "access_and_reading_level": "Abstract and selected open full-text conclusions read.",
+      "publisher_abstract": "AbstractThis paper presents an economic analysis of the reduction of carbon emissions in the aviation sector. Aviation and shipping are both international and have high carbon abatement costs so both sectors can learn from each other. To what extent should we prioritize emission reductions in the aviation sector and what is the best way to do this. Climate change is a world public bad, and this results in too low mitigation efforts when countries pursue their own objectives. Pledges in the framework of international agreements like the Paris agreement for domestic aviation and the Corsia agreement for international aviation are unlikely to produce their full effects because the agreements are not enforceable. The effectiveness of three policy levers is examined in more detail. First, the European climate policy with the SAF blending mandate and the integration of domestic aviation in the European economy wide tradable emission system. Second the effectiveness of the Corsia agreement. Third, the possibilities of a fuel efficiency mandate imposed by the EU and or the US on their domestic aircraft producer.",
+      "evidence_quote": "efficiency measures are expensive and are to some extent compensated by lower carbon taxes and by the rebound effect",
+      "supported_claim": "Economic analysis shows instrument interactions and potential rebound effects should be considered when interpreting fuel-efficiency policy.",
+      "boundary": "A theoretical/economic policy analysis; it does not identify an aggregate Chinese rebound elasticity.",
+      "crossref_update_to": null,
+      "crossref_relation": {}
+    },
+    {
+      "number": 10,
+      "id": "health2026",
+      "priority": "Recent boundary context",
+      "reference": "Quadros, F. D. A.; Nelen, R.; Snellen, M.; Dedoussi, I. C. (2026). Global air quality and human health impacts of growing aircraft emissions. Communications Earth & Environment, 7(1), 806. https://doi.org/10.1038/s43247-026-03732-4",
+      "title": "Global air quality and human health impacts of growing aircraft emissions",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0023-7863",
+          "authenticated-orcid": false,
+          "given": "Flávio D. A.",
+          "family": "Quadros",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rick",
+          "family": "Nelen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mirjam",
+          "family": "Snellen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8966-9469",
+          "authenticated-orcid": false,
+          "given": "Irene C.",
+          "family": "Dedoussi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2026,
+      "journal": "Communications Earth & Environment",
+      "volume": "7",
+      "issue": "1",
+      "page_or_article_number": "806",
+      "doi": "10.1038/s43247-026-03732-4",
+      "url": "https://doi.org/10.1038/s43247-026-03732-4",
+      "crossref_file": "/workspace/research/literature_agent/raw/health2026_crossref.json",
+      "publisher_file": "/workspace/research/literature_agent/raw/health2026_publisher.html",
+      "title_matches_publisher": true,
+      "publisher_doi": [
+        "10.1038/s43247-026-03732-4"
+      ],
+      "publisher_author_strings": [
+        "Quadros, Flávio D. A.",
+        "Nelen, Rick",
+        "Snellen, Mirjam",
+        "Dedoussi, Irene C."
+      ],
+      "access_and_reading_level": "Abstract and selected open full-text scenarios/atmospheric-model methods read.",
+      "publisher_abstract": "AbstractAviation is a growing source of atmospheric emissions that degrade air quality both near and far from airports, increasing human mortality. These impacts can vary significantly over time as emissions from aviation and other sectors evolve. Here, we project global aircraft emissions from the year 2019 to 2040, and use an atmospheric chemistry transport model to estimate their air quality and human health impacts. In 2019, aircraft emissions are estimated to result in 33,900 (95% confidence interval: 23,500–45,600) deaths due to fine particulate matter and 24,600 (15,500–34,200) due to ozone. These two impact metrics increase in three 2040 scenarios of aircraft emissions: by 58% and 82% (low), 119% and 148% (baseline), 169% and 205% (high). Different socioeconomic scenarios for non-aviation emissions change aircraft impacts by up to 44%. These results provide a comprehensive and up-to-date quantification of the global human health burden of aviation and its potential increase in the next two decades.",
+      "evidence_quote": "use an atmospheric chemistry transport model to estimate their air quality and human health impacts",
+      "supported_claim": "Aviation sustainability includes air-quality/health impacts beyond a CO2-only inventory.",
+      "boundary": "Do not sum PM2.5- and ozone-attributable deaths without considering overlap; do not label its global modeled impacts Chinese observed outcomes.",
+      "crossref_update_to": null,
+      "crossref_relation": {}
+    },
+    {
+      "number": 11,
+      "id": "private2024",
+      "priority": "Optional demand/distribution context",
+      "reference": "Gössling, S.; Humpe, A.; Leitão, J. C. (2024). Private aviation is making a growing contribution to climate change. Communications Earth & Environment, 5(1), 666. https://doi.org/10.1038/s43247-024-01775-z",
+      "title": "Private aviation is making a growing contribution to climate change",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0505-9207",
+          "authenticated-orcid": false,
+          "given": "Stefan",
+          "family": "Gössling",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8663-3201",
+          "authenticated-orcid": false,
+          "given": "Andreas",
+          "family": "Humpe",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jorge Cardoso",
+          "family": "Leitão",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2024,
+      "journal": "Communications Earth & Environment",
+      "volume": "5",
+      "issue": "1",
+      "page_or_article_number": "666",
+      "doi": "10.1038/s43247-024-01775-z",
+      "url": "https://doi.org/10.1038/s43247-024-01775-z",
+      "crossref_file": "/workspace/research/literature_agent/raw/private2024_crossref.json",
+      "publisher_file": "/workspace/research/literature_agent/raw/private2024_publisher.html",
+      "title_matches_publisher": true,
+      "publisher_doi": [
+        "10.1038/s43247-024-01775-z"
+      ],
+      "publisher_author_strings": [
+        "Gössling, Stefan",
+        "Humpe, Andreas",
+        "Leitão, Jorge Cardoso"
+      ],
+      "access_and_reading_level": "Official publisher abstract read; open full text retrieved.",
+      "publisher_abstract": "AbstractCommercial aviation’s contribution to climate change is growing, but the global role of private aviation is not well quantified. Here we calculate the sector’s CO2 emissions, using flight tracker data from the ADS-B Exchange platform for the period 2019 to 2023. Flight times for 25,993 private aircraft and 18,655,789 individual flights in 2019-2023 are linked to 72 aircraft models and their average fuel consumption. We find that private aviation contributed at least 15.6 Mt CO2 in direct emissions in 2023, or about 3.6 t CO2 per flight. Almost half of all flights (47.4%) are shorter than 500 km. Private aviation is concentrated in the USA, where 68.7% of the aircraft are registered. Flight pattern analysis confirms extensive travel for leisure purposes, and for cultural and political events. Emissions increased by 46% between 2019-2023, with industry expectations of continued strong growth. Regulation is needed to address the sector’s growing climate impact.",
+      "evidence_quote": "Emissions increased by 46% between 2019-2023",
+      "supported_claim": "Private aviation has distinct growth and distribution patterns, reinforcing the need for explicit aviation coverage.",
+      "boundary": "Private aviation is outside a commercial transport-operator study unless explicitly included. Prefer omit if word-limited.",
+      "crossref_update_to": null,
+      "crossref_relation": {}
+    },
+    {
+      "number": 12,
+      "id": "dray2022",
+      "priority": "Older foundational counterpoint",
+      "reference": "Dray, L.; Schäfer, A. W.; Grobler, C.; Falter, C.; Allroggen, F.; Stettler, M. E. J.; Barrett, S. R. H. (2022). Cost and emissions pathways towards net-zero climate impacts in aviation. Nature Climate Change, 12(10), 956–962. https://doi.org/10.1038/s41558-022-01485-4",
+      "title": "Cost and emissions pathways towards net-zero climate impacts in aviation",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3331-1246",
+          "authenticated-orcid": false,
+          "given": "Lynnette",
+          "family": "Dray",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0301-6644",
+          "authenticated-orcid": false,
+          "given": "Andreas W.",
+          "family": "Schäfer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5087-027X",
+          "authenticated-orcid": false,
+          "given": "Carla",
+          "family": "Grobler",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8860-7100",
+          "authenticated-orcid": false,
+          "given": "Christoph",
+          "family": "Falter",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Florian",
+          "family": "Allroggen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2066-9380",
+          "authenticated-orcid": false,
+          "given": "Marc E. J.",
+          "family": "Stettler",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4642-9545",
+          "authenticated-orcid": false,
+          "given": "Steven R. H.",
+          "family": "Barrett",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2022,
+      "journal": "Nature Climate Change",
+      "volume": "12",
+      "issue": "10",
+      "page_or_article_number": "956–962",
+      "doi": "10.1038/s41558-022-01485-4",
+      "url": "https://doi.org/10.1038/s41558-022-01485-4",
+      "crossref_file": "/workspace/research/literature_agent/raw/dray2022_crossref.json",
+      "publisher_file": "/workspace/research/literature_agent/raw/dray2022_publisher.html",
+      "title_matches_publisher": true,
+      "publisher_doi": [
+        "10.1038/s41558-022-01485-4"
+      ],
+      "publisher_author_strings": [
+        "Dray, Lynnette",
+        "Schäfer, Andreas W.",
+        "Grobler, Carla",
+        "Falter, Christoph",
+        "Allroggen, Florian",
+        "Stettler, Marc E. J.",
+        "Barrett, Steven R. H."
+      ],
+      "access_and_reading_level": "Official publisher abstract read; full text paywalled.",
+      "publisher_abstract": "AbstractAviation emissions are not on a trajectory consistent with Paris Climate Agreement goals. We evaluate the extent to which fuel pathways—synthetic fuels from biomass, synthetic fuels from green hydrogen and atmospheric CO2, and the direct use of green liquid hydrogen—could lead aviation towards net-zero climate impacts. Together with continued efficiency gains and contrail avoidance, but without offsets, such an energy transition could reduce lifecycle aviation CO2 emissions by 89–94% compared with year-2019 levels, despite a 2–3-fold growth in demand by 2050. The aviation sector could manage the associated cost increases, with ticket prices rising by no more than 15% compared with a no-intervention baseline leading to demand suppression of less than 14%. These pathways will require discounted investments on the order of US$0.5–2.1 trillion over a 30 yr period. However, our pathways reduce aviation CO2-equivalent emissions by only 46–69%; more action is required to mitigate non-CO2 impacts.",
+      "evidence_quote": "our pathways reduce aviation CO2-equivalent emissions by only 46–69%",
+      "supported_claim": "Under its modeled pathways, large lifecycle CO2 reductions can coexist with demand growth, but residual non-CO2 impacts remain.",
+      "boundary": "Use alongside Sacchi rather than implying consensus that demand reduction is always mathematically necessary; assumptions differ.",
+      "crossref_update_to": null,
+      "crossref_relation": {}
+    },
+    {
+      "number": 13,
+      "id": "grewe2021",
+      "priority": "Older foundational context",
+      "reference": "Grewe, V.; Gangoli Rao, A.; Grönstedt, T.; Xisto, C.; Linke, F.; Melkert, J.; Middel, J.; Ohlenforst, B.; Blakey, S.; Christie, S.; Matthes, S.; Dahlmann, K. (2021). Evaluating the climate impact of aviation emission scenarios towards the Paris agreement including COVID-19 effects. Nature Communications, 12(1), 3841. https://doi.org/10.1038/s41467-021-24091-y",
+      "title": "Evaluating the climate impact of aviation emission scenarios towards the Paris agreement including COVID-19 effects",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8012-6783",
+          "authenticated-orcid": false,
+          "given": "Volker",
+          "family": "Grewe",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9558-8171",
+          "authenticated-orcid": false,
+          "given": "Arvind",
+          "family": "Gangoli Rao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tomas",
+          "family": "Grönstedt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7106-391X",
+          "authenticated-orcid": false,
+          "given": "Carlos",
+          "family": "Xisto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1403-3471",
+          "authenticated-orcid": false,
+          "given": "Florian",
+          "family": "Linke",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joris",
+          "family": "Melkert",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jan",
+          "family": "Middel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5793-6059",
+          "authenticated-orcid": false,
+          "given": "Barbara",
+          "family": "Ohlenforst",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6478-7170",
+          "authenticated-orcid": false,
+          "given": "Simon",
+          "family": "Blakey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2631-5425",
+          "authenticated-orcid": false,
+          "given": "Simon",
+          "family": "Christie",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5114-2418",
+          "authenticated-orcid": false,
+          "given": "Sigrun",
+          "family": "Matthes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Katrin",
+          "family": "Dahlmann",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2021,
+      "journal": "Nature Communications",
+      "volume": "12",
+      "issue": "1",
+      "page_or_article_number": "3841",
+      "doi": "10.1038/s41467-021-24091-y",
+      "url": "https://doi.org/10.1038/s41467-021-24091-y",
+      "crossref_file": "/workspace/research/literature_agent/raw/grewe2021_crossref.json",
+      "publisher_file": "/workspace/research/literature_agent/raw/grewe2021_publisher.html",
+      "title_matches_publisher": true,
+      "publisher_doi": [
+        "10.1038/s41467-021-24091-y"
+      ],
+      "publisher_author_strings": [
+        "Grewe, Volker",
+        "Gangoli Rao, Arvind",
+        "Grönstedt, Tomas",
+        "Xisto, Carlos",
+        "Linke, Florian",
+        "Melkert, Joris",
+        "Middel, Jan",
+        "Ohlenforst, Barbara",
+        "Blakey, Simon",
+        "Christie, Simon",
+        "Matthes, Sigrun",
+        "Dahlmann, Katrin"
+      ],
+      "access_and_reading_level": "Abstract and selected open full-text scenario/methods paragraphs read.",
+      "publisher_abstract": "AbstractAviation is an important contributor to the global economy, satisfying society’s mobility needs. It contributes to climate change through CO2 and non-CO2 effects, including contrail-cirrus and ozone formation. There is currently significant interest in policies, regulations and research aiming to reduce aviation’s climate impact. Here we model the effect of these measures on global warming and perform a bottom-up analysis of potential technical improvements, challenging the assumptions of the targets for the sector with a number of scenarios up to 2100. We show that although the emissions targets for aviation are in line with the overall goals of the Paris Agreement, there is a high likelihood that the climate impact of aviation will not meet these goals. Our assessment includes feasible technological advancements and the availability of sustainable aviation fuels. This conclusion is robust for several COVID-19 recovery scenarios, including changes in travel behaviour.",
+      "evidence_quote": "a bottom-up analysis of potential technical improvements",
+      "supported_claim": "Bottom-up technology/SAF and COVID-recovery scenarios distinguish emissions targets from temperature outcomes.",
+      "boundary": "Older scenario assumptions/CORSIA descriptions should not be cited as current policy. Use only for method/climate-boundary context.",
+      "crossref_update_to": null,
+      "crossref_relation": {}
+    }
+  ]
+}

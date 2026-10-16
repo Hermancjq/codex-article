@@ -1,0 +1,187 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-16T04:59:20.046065+00:00",
+  "workbook": "/workspace/research/delivery/04_Data_and_Code/RESEARCH_DATA_AND_RESULTS.xlsx",
+  "workbook_sha256": "8b82e05028bcc98efa3719fbaa13bd6217e3fcefb728a3877700b7e0f98f2eb2",
+  "workbook_bytes": 2156265,
+  "sheet_count": 17,
+  "csv_sheet_count": 9,
+  "csv_data_rows_total": 12358,
+  "all_frozen_input_sha256_unchanged": true,
+  "analysis_rerun": false,
+  "formula_cells": [],
+  "literal_csv_archive_records": 12358,
+  "literal_json_chunks": 3,
+  "numeric_readback_relative_tolerance": 2e-15,
+  "exact_original_csv_tokens_preserved": true,
+  "numeric_storage_note": "Excel numeric cells use double precision; all exact CSV tokens and original JSON text are also visibly archived as literal strings.",
+  "source_input_sha256": {
+    "source/verified_data.csv": "3b43c73aaa0415c18ba6c512564be334c7c87678d4a62f19d57a5f8218639770",
+    "data_agent/official_aviation_2010_2025.csv": "451cbbe6ecadf22cc332a45a8c385a544b6cfac0c26032c927edf32dd2469b50",
+    "data_agent/nbs_crosscheck.csv": "a9b594ebca16a0b0519aa920c23db129444fef9b08c226f9b14b269479c569d1",
+    "scope_audit/nbs_turnover_crosscheck.csv": "1da3290b60b79d9d0ba9c4baf41c5371a1c2260b7925b5ba2c3e1928b1ef97df",
+    "output/analysis/annual.csv": "40ee021e34aab94c5c89a17073d7ac7759f43a540b763cb2279a08f257b06280",
+    "output/analysis/decomposition.csv": "461dc9412cb3c6633e6a8ae0aa1907be047e8205878a38cd9c4586760504fb25",
+    "output/analysis/periods.csv": "55dfcb64d3af46d595c79a1f9e40a28d529fca999684df6c4e852995916fc622",
+    "output/transition/rolling_h1_forecasts.csv": "a102ec9f335ddd36e6adb7e9118ded6e86658d1c37f30c244377e8dd0fc8835e",
+    "output/transition/conditional_scenario_design.csv": "b17c6d54f2bbeb7be3420a8e286f3ef461f8082ead964742ed618a53892d1bf4",
+    "scenario_config.json": "20888083bc16a9761a8b16ecd68dbb789f7437046ebb8eff99b1f6e05e956031",
+    "output/transition/transition_results.json": "2b2694af00832ace59d962f610328a2b5bed29d4fb66a4d13adc8536d59956b6"
+  },
+  "sheets": [
+    {
+      "sheet": "README",
+      "data_rows": 25,
+      "columns": 2,
+      "source_csv": null,
+      "source_csv_rows": null,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "Verified_Observations",
+      "data_rows": 11,
+      "columns": 12,
+      "source_csv": "source/verified_data.csv",
+      "source_csv_rows": 11,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "Raw_Official_2010_2025",
+      "data_rows": 16,
+      "columns": 13,
+      "source_csv": "data_agent/official_aviation_2010_2025.csv",
+      "source_csv_rows": 16,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "NBS_Check_2025_Yearbook",
+      "data_rows": 5,
+      "columns": 9,
+      "source_csv": "data_agent/nbs_crosscheck.csv",
+      "source_csv_rows": 5,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "NBS_Cross_Publication",
+      "data_rows": 4,
+      "columns": 14,
+      "source_csv": "scope_audit/nbs_turnover_crosscheck.csv",
+      "source_csv_rows": 4,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "Annual_Reconstruction",
+      "data_rows": 11,
+      "columns": 7,
+      "source_csv": "output/analysis/annual.csv",
+      "source_csv_rows": 11,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "LMDI_Annual",
+      "data_rows": 10,
+      "columns": 14,
+      "source_csv": "output/analysis/decomposition.csv",
+      "source_csv_rows": 10,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "LMDI_Periods",
+      "data_rows": 7,
+      "columns": 17,
+      "source_csv": "output/analysis/periods.csv",
+      "source_csv_rows": 7,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "Forecast_Diagnostic",
+      "data_rows": 6,
+      "columns": 13,
+      "source_csv": "output/transition/rolling_h1_forecasts.csv",
+      "source_csv_rows": 6,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "Scenario_Design",
+      "data_rows": 12288,
+      "columns": 8,
+      "source_csv": "output/transition/conditional_scenario_design.csv",
+      "source_csv_rows": 12288,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "Scenario_Config",
+      "data_rows": 20,
+      "columns": 3,
+      "source_csv": null,
+      "source_csv_rows": null,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "Delay_Summaries_HighRes",
+      "data_rows": 3,
+      "columns": 16,
+      "source_csv": null,
+      "source_csv_rows": null,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "Delay_Summaries_Base",
+      "data_rows": 3,
+      "columns": 16,
+      "source_csv": null,
+      "source_csv_rows": null,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "Exact_Domain_Bounds",
+      "data_rows": 2,
+      "columns": 9,
+      "source_csv": null,
+      "source_csv_rows": null,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "Source_Index",
+      "data_rows": 11,
+      "columns": 6,
+      "source_csv": null,
+      "source_csv_rows": null,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "CSV_Literal_Archive",
+      "data_rows": 12358,
+      "columns": 3,
+      "source_csv": null,
+      "source_csv_rows": null,
+      "row_count_matches": true,
+      "visible": true
+    },
+    {
+      "sheet": "JSON_Literal_Archive",
+      "data_rows": 3,
+      "columns": 4,
+      "source_csv": null,
+      "source_csv_rows": null,
+      "row_count_matches": true,
+      "visible": true
+    }
+  ],
+  "errors": []
+}
